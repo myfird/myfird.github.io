@@ -137,10 +137,10 @@ main{
 		.categories a{
 			display: inline-grid;
 		}
-		.categories div:nth-child(odd){
+		.categories a:nth-child(odd){
 			margin:0 30px 30px 160px;
 		}
-		.categories div:nth-child(even){
+		.categories a:nth-child(even){
 			margin:0 30px 30px 10px;
 		}
 		.category {
