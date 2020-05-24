@@ -45,6 +45,7 @@ header{
 	nav{
 		height:40px;
 		float:left;
+		width:100%;
 	}
 		nav a{
 		    display: inline-block;
