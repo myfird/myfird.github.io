@@ -23,6 +23,9 @@ header{
 		height:140px;
 		width:30%;
 	}
+	nav{
+		height:40px;
+	}
 
 main{
 	background:rgb(44,44,44);
