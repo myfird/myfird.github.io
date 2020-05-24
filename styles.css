@@ -132,10 +132,10 @@ main{
 	.categories{
 
 	}
-		.categories:nth-child(odd){
+		.categories div:nth-child(odd){
 			margin:0 30px 30px 160px;
 		}
-		.categories:nth-child(even){
+		.categories div:nth-child(even){
 			margin:0 30px 30px 30px;
 		}
 		.category {
