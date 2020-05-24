@@ -55,6 +55,7 @@ header{
 		    padding: 5px 10px;
 		    margin: 0 0 0 40px;
 		    font-size: 20px;
+		    height:30px;
 		}
 		nav a:hover{
 			color:rgb(13,13,13);
