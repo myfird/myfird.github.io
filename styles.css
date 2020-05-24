@@ -12,11 +12,13 @@ header{
 	background:rgb(13,13,13);
 }
 	#logo{
-		margin:20px 0 0 20px;
 		display:block;
 		height: 140px;
 		width:30%;
 	}
+		#logo img{
+			margin:20px 0 0 20px;
+		}
 	.gallery{
 		height:140px;
 		width:40%;
