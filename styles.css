@@ -128,7 +128,18 @@ main{
 		    top: -140px;
 		    left: 46%;
 		    position: relative;
+		}
+	.categories{
+
 	}
+		.category {
+			width: 540px;
+			height: 250px;
+			left: 161px;
+
+			background: url(37.jpg), #000000;
+			box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+		}
 
 
 
