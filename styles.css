@@ -145,10 +145,12 @@ main{
 			height: 250px;
 			display: inline-block;
 			}
-		.category span{
+		.category a{
 			position: relative;
-		    top: -100px;
-		    left: 50px;
+    		top: -150px;
+    		left: 50px;
+		}
+		.category span{
 		    font-size: 35px;
 		    line-height: 42px;
 		    text-indent: 6px;
