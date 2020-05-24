@@ -8,6 +8,11 @@ header{
 	height:140px;
 	background:rgb(13,13,13);
 }
+	#logo{
+		margin:20px 0 0 20px;
+		position:absolute;
+	}
+
 main{
 	background:rgb(44,44,44);
 }
