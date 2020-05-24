@@ -58,7 +58,7 @@ header{
 		}
 		nav a:hover{
 			color:rgb(13,13,13);
-			border-bottom: solid 2px green;
+			border-bottom: solid 2px rgb(143,187,148);
 		}
 
 main{
