@@ -155,7 +155,7 @@ main{
 		    color: #8FBB94;
 		    text-shadow: 0px 1px 4px #8FBB94;
 		}
-		.category span:hover{
+		.category:hover span{
 			text-shadow: 0px 1px 14px #8FBB94;
 		}
 
