@@ -47,7 +47,7 @@ header{
 		height:40px;
 		float:left;
 		width:100%;
-		border-bottom: solid 1px rgb(210,210,210);
+		border-bottom: solid 2px rgb(13,13,13);
 	}
 		nav a{
 			display: inline-block;
@@ -58,6 +58,7 @@ header{
 		}
 		nav a:hover{
 			color:rgb(13,13,13);
+			border-bottom: solid 2px green;
 		}
 
 main{
