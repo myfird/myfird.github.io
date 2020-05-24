@@ -50,10 +50,12 @@ header{
 		.social-icons .insta{
 			display: block;
 			background-image:url(insta.png);
+			background-repeat: no-repeat;
 		}
-		.social-icons .insta{
+		.social-icons .whatsapp{
 			display: block;
 			background-image:url(whatsapp.png);
+			background-repeat: no-repeat;
 		}
 	nav{
 		height:40px;
