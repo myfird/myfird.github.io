@@ -135,8 +135,9 @@ main{
 		.category {
 			width: 540px;
 			height: 250px;
-			left: 161px;
-		}
+			display: inline-block;
+    		float: left;
+			}
 
 
 
