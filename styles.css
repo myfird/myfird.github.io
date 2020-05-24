@@ -30,6 +30,7 @@ header{
 			padding: 40px 0 0 0;
 			color: rgb(210,210,210);
 			font-size: 40px;
+			display: block;
 		}
 	.contacts{
 		height:140px;
