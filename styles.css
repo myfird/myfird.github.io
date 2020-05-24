@@ -130,7 +130,7 @@ main{
 		    position: relative;
 		}
 	.categories{
-
+		padding-top: 50px;
 	}
 		.categories div:nth-child(odd){
 			margin:0 30px 30px 160px;
@@ -142,7 +142,6 @@ main{
 			width: 540px;
 			height: 250px;
 			display: inline-block;
-    		float: left;
     		margin:0 30px 30px 30px;
 			}
 		.category span{
