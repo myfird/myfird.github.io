@@ -35,8 +35,9 @@ header{
 		float: left;
 	}
 		.contacts a.tel{
-			font-size: 18px;
+			font-size: 24px;
 			color:rgb(210,210,210);
+			display: block;
 		}
 	nav{
 		height:40px;
@@ -44,6 +45,7 @@ header{
 		nav a{
 			display:inline-block;
 			color:rgb(210,210,210);
+
 		}
 
 main{
