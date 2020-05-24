@@ -112,13 +112,19 @@ main{
 		    position: relative;
 		}
 		.slide-2{
-			background-image: url(items/slide-2.png);
-			height: 500px;
-	    	position: relative;
-	    	top: -175px;
+		    background-image: url(items/slide-2.png);
+		    margin-top: -170px;
+		    width: 735px;
+		    height: 500px;
+		    float: left;
 		}
 		.slide-3{
-		background-image: url(items/slide-3.png);
+		    background-image: url(items/slide-3.png);
+		    width: 770px;
+		    height: 500px;
+		    top: -140px;
+		    left: 46%;
+		    position: relative;
 	}
 
 
