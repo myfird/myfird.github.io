@@ -46,8 +46,13 @@ header{
 		.social-icons{
 			height:40px;
 		}
-		.social-icons a{
+		.social-icons .insta{
 			display: block;
+			background-image:url(insta.png);
+		}
+		.social-icons .insta{
+			display: block;
+			background-image:url(whatsapp.png);
 		}
 	nav{
 		height:40px;
