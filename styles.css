@@ -21,11 +21,13 @@ header{
 			margin:20px 0 0 20px;
 		}
 	.gallery{
-		height:140px;
-		width:40%;
-		float: left;
-		font-size:30px;
-		color:rgb(210,210,210);
+	    height: 140px;
+	    width: 40%;
+	    float: left;
+	    font-size: 40px;
+	    color: rgb(210,210,210);
+	    text-align: center;
+	    padding: 40px 0 0 0;
 	}
 	.contacts{
 		height:140px;
