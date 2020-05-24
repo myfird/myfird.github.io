@@ -15,6 +15,14 @@ header{
 		margin:20px 0 0 20px;
 		position:absolute;
 	}
+	.gallery{
+		height:140px;
+		width:70%;
+	}
+	.contacts{
+		height:140px;
+		width:30%;
+	}
 
 main{
 	background:rgb(44,44,44);
