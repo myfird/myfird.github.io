@@ -50,6 +50,10 @@ header{
 		.social-icons a{
 			background-repeat: no-repeat;
 			display: block;
+			height: 35px;
+		    width: 160px;
+		    float: left;
+		    background-size: contain;
 		}
 		.social-icons .insta{
 			background-image:url(insta.png);
