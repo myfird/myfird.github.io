@@ -13,11 +13,13 @@ header{
 }
 	#logo{
 		margin:20px 0 0 20px;
-		position:absolute;
+		display:block;
+		height: 140px;
+		width:30%;
 	}
 	.gallery{
 		height:140px;
-		width:70%;
+		width:40%;
 	}
 	.contacts{
 		height:140px;
