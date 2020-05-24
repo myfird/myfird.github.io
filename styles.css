@@ -112,8 +112,11 @@ main{
 		    position: relative;
 		}
 		.slide-2{
-		background-image: url(items/slide-2.png);
-	}
+			background-image: url(items/slide-2.png);
+			height: 500px;
+	    	position: relative;
+	    	top: -175px;
+		}
 		.slide-3{
 		background-image: url(items/slide-3.png);
 	}
