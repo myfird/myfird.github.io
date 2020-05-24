@@ -36,6 +36,9 @@ header{
 	nav{
 		height:40px;
 	}
+		nav a{
+			display:inline-block;
+		}
 
 main{
 	background:rgb(44,44,44);
