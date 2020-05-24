@@ -108,9 +108,9 @@ main{
 			font-size: 25px;
 		    color: #D2D2D2;
 		    text-shadow: 0px -1px 4px #D2D2D2;
-		    left: 160px;
-		    top: 475px;
-		    position: absolute;
+		    left: -255px;
+		    top: 276px;
+		    position: relative;
 		}
 		.slide-2{
 		background-image: url(items/slide-2.png);
