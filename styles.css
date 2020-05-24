@@ -1,9 +1,13 @@
 body{
 	font-family: 'Cormorant Garamond', serif;
 	width:1440px;
-	background:snow;
+	background:black;
+	margin:0 auto;
 }
 header{
 	height:140px;
 	background:rgb(13,13,13);
+}
+main{
+	background:rgb(44,44,44);
 }
