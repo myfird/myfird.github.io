@@ -132,6 +132,12 @@ main{
 	.categories{
 
 	}
+		.categories:nth-child(odd){
+			margin:0 30px 30px 160px;
+		}
+		.categories:nth-child(even){
+			margin:0 30px 30px 30px;
+		}
 		.category {
 			width: 540px;
 			height: 250px;
@@ -143,7 +149,6 @@ main{
 			position: relative;
 		    top: -100px;
 		    left: 50px;
-		    color: rgb(210,210,210);
 		    font-size: 35px;
 		    line-height: 42px;
 		    text-indent: 6px;
