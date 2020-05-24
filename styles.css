@@ -43,6 +43,12 @@ header{
 			display: block;
 			margin-top: 10px;
 		}
+		.social-icons{
+			height:40px;
+		}
+		.social-icons a{
+			display: block;
+		}
 	nav{
 		height:40px;
 		float:left;
