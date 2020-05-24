@@ -91,8 +91,7 @@ main{
 	}
 		.slide-1{
 	    background-image: url(items/slide-1.png);
-	   height: 600px;
-	    background-position: 0 -150px;
+	   	height: 600px;
 	    background-size: contain;
 	}
 		.slide-1 span.name{
