@@ -15,6 +15,7 @@ header{
 		display:block;
 		height: 140px;
 		width:30%;
+		float: left;
 	}
 		#logo img{
 			margin:20px 0 0 20px;
@@ -22,10 +23,12 @@ header{
 	.gallery{
 		height:140px;
 		width:40%;
+		float: left;
 	}
 	.contacts{
 		height:140px;
 		width:30%;
+		float: left;
 	}
 	nav{
 		height:40px;
