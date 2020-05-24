@@ -48,10 +48,11 @@ header{
 		width:100%;
 	}
 		nav a{
-		    display: inline-block;
+			display: inline-block;
 		    color: rgb(210,210,210);
 		    padding: 5px 10px;
-		    margin: 0 10px 0 0;
+		    margin: 0 0 0 40px;
+		    font-size: 20px;
 		}
 
 main{
