@@ -86,3 +86,19 @@ header{
 main{
 	background:rgb(44,44,44);
 }
+	.slide{
+		background-repeat: no-repeat;
+	}
+		.slide-1{
+		background-image: url(slide-1.png);
+	}
+		.slide-2{
+		background-image: url(slide-2.png);
+	}
+		.slide-3{
+		background-image: url(slide-3.png);
+	}
+
+
+
+
