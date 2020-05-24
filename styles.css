@@ -46,9 +46,10 @@ header{
 		float:left;
 	}
 		nav a{
-			display:inline-block;
-			color:rgb(210,210,210);
-
+		    display: inline-block;
+		    color: rgb(210,210,210);
+		    padding: 5px 10px;
+		    margin: 0 10px 0 0;
 		}
 
 main{
