@@ -90,13 +90,13 @@ main{
 		background-repeat: no-repeat;
 	}
 		.slide-1{
-		background-image: url(slide-1.png);
+		background-image: url(items/slide-1.png);
 	}
 		.slide-2{
-		background-image: url(slide-2.png);
+		background-image: url(items/slide-2.png);
 	}
 		.slide-3{
-		background-image: url(slide-3.png);
+		background-image: url(items/slide-3.png);
 	}
 
 
