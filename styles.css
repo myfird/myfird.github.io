@@ -100,16 +100,17 @@ main{
 			color: #8FBB94;
 			text-shadow: 0px -1px 4px #8FBB94;
 			left: 158px;
-			top: 376px;
+			top: 226px;
 			position: relative;
+
 		}
 		.slide-1 span.desc{
 			font-size: 25px;
-			color: #D2D2D2;
-			text-shadow: 0px -1px 4px #D2D2D2;
-			left: 160px;
-			top: 515px;
-			position: relative;
+		    color: #D2D2D2;
+		    text-shadow: 0px -1px 4px #D2D2D2;
+		    left: 160px;
+		    top: 475px;
+		    position: absolute;
 		}
 		.slide-2{
 		background-image: url(items/slide-2.png);
