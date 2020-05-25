@@ -288,6 +288,10 @@ main{
 		.delivery div.map .circle{
 
 		}
+		.delivery .moscow .circle-big{
+			top: 302px;
+		    left: 158px;
+		}
 		.delivery div.map .circle-big{
 		    width: 13px;
 		    height: 13px;
