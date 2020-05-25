@@ -203,16 +203,6 @@ main{
 		    left: 689px;
 		    position: relative;
 		}
-		blur{
-			eight: 950px;
-		    idth: 1440px;
-		    osition: absolute;
-		    op: 0;
-		    -index: -9;
-		    background: #8FBB94;
-		    transform: matrix(1, 0, 0, -1, 0, 0);
-		    filter: blur(50px);
-		}
 	.categories{
 		padding: 50px 0;
 		background: #000000;
