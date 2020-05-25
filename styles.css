@@ -160,7 +160,11 @@ main{
 		.category:hover span{
 			text-shadow: 0px 1px 14px #8FBB94;
 		}
-
+	.package{
+		height: 640px;
+		background: #000000;
+		box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.65);
+	}
 
 
 
