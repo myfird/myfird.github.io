@@ -301,12 +301,12 @@ main{
 			    left: 158px;
 			}
 			.delivery .spb span{
-				position: relative;
-				top: 280px;
-				left: 200px;
-					}
+			    position: relative;
+			    top: 158px;
+			    left: 190px;
+			}
 			.delivery .spb .circle-big{
-				top: 280px;
+			    top: 180px;
 			    left: 170px;
 			}
 			.delivery .uu span{
