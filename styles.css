@@ -184,17 +184,17 @@ main{
 		}
 		.slide-2{
 		    background-image: url(items/slide-2a.png);
-		    margin-top: -170px;
-		    width: 735px;
-		    height: 500px;
+		    margin-top: -95px;
+		    width: 703px;
+		    height: 429px;
 		    float: left;
 		}
 		.slide-3{
 		    background-image: url(items/slide-3a.png);
-		    width: 770px;
-		    height: 500px;
-		    top: -140px;
-		    left: 46%;
+		    width: 734px;
+		    height: 400px;
+		    top: -65px;
+		    left: 703px;
 		    position: relative;
 		}
 	.categories{
