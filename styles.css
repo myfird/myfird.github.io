@@ -199,10 +199,10 @@ main{
 		    width: 540px;
 		    height: 150px;
 		    position: absolute;
-		    top: 115px;
+		    top: 25px;
 		    left: 12px;
 		    width: 536px;
-		    height: 150px;
+		    height: 240px;
 		}
 		.category span{
 			position: relative;
