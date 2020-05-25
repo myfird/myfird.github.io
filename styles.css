@@ -129,6 +129,23 @@ main{
 	.slider{
 		height: 950px;
 	}
+	.triangle{
+		
+	}
+    .triangle-left {
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;
+      border-right: 100px solid red;
+      border-bottom: 50px solid transparent;
+    }
+	.triangle-right{
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;
+      border-left: 100px solid red;
+      border-bottom: 50px solid transparent;
+	}
 	.slide{
 		background-repeat: no-repeat;
 	}
@@ -144,7 +161,6 @@ main{
 			left: 158px;
 			top: 226px;
 			position: relative;
-
 		}
 		.slide-1 span.desc{
 			font-size: 25px;
