@@ -9,6 +9,10 @@ body{
 }
 #cart{
 	position:sticky;
+width: 150px;
+height: 60px;
+background: #0D0D0D;
+border-radius: 3px 0 0 3px;
 }
 header{
 	height:182px;
