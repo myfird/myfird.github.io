@@ -305,9 +305,16 @@ main{
 				top: 280px;
 			    left: 170px;
 			}
-		.delivery .uu .circle-big{
-
-		}
+			.delivery .uu span{
+					position: relative;
+					top: 1020px;
+					left: 200px;
+						}
+			.delivery .uu .circle-big{
+					top: 1080px;
+				    left: 170px;
+			}
+			
 		.delivery div.map .circle-big{
 		    width: 13px;
 		    height: 13px;
