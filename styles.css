@@ -9,7 +9,7 @@ body{
 }
 #cart{
     position: sticky;
-    width: 150px;
+    width: 160px;
     height: 60px;
     background: #0D0D0D;
     top: 275px;
@@ -29,6 +29,7 @@ body{
 		background-image: url(busket.png);
 		background-repeat: no-repeat;
 		height: 44px;
+		width:60px;
 	    position: relative;
 	    top: -50px;
 	    left: 90px;
