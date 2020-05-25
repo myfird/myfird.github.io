@@ -175,12 +175,16 @@ main{
 				font-size: 45px;
 				color: #8FBB94;
 				text-shadow: 0px -1px 4px #8FBB94;
+			    display: block;
+			    margin: 70px 0 0 50px;
 			}
 			.package span.text{
 				font-size: 25px;
 				line-height: 183%;
 				color: #D2D2D2;
 				text-shadow: 0px -1px 4px #D2D2D2;
+			    display: block;
+			    margin: 20px 0 0 50px;
 			}
 			.package span.next{
 				background: #0D0D0D;
