@@ -194,6 +194,11 @@ main{
 			z-index: -5;
 			width: 540px;
 			height: 150px;
+		    position: relative;
+		    top: -240px;
+		    left: 10px;
+		    width: 540px;
+		    height: 150px;
 		}
 		.category span{
 			position: relative;
