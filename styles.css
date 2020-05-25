@@ -135,6 +135,8 @@ main{
 	.slider{
 		height: 930px;
 		position:relative;
+		top: -1px;
+    	z-index: -5;
 	}
 	.triangle{
 		position: absolute;
