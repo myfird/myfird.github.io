@@ -12,7 +12,9 @@ body{
 	width: 150px;
 	height: 60px;
 	background: #0D0D0D;
-	border-radius: 3px 0 0 3px;
+	border-radius: 3px;
+	right: 25px;
+    top: 225px;
 }
 	#cart span{
 		font-size: 20px;
