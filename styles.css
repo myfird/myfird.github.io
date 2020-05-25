@@ -234,5 +234,12 @@ main{
 			text-align: center;
     		margin-top: 50px;
 		}
+		.delivery div.map{
+			width: 1000px;
+    		margin: 0 auto;
+		}
+		.delivery img{
+			height:500px;
+		}
 
 
