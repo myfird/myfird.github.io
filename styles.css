@@ -163,7 +163,7 @@ main{
 		   	height: 600px;
 		    background-size: contain;
 		}
-		.slide-1 span.name{
+		.mySlides span.name{
 			font-size: 55px;
 			color: #8FBB94;
 			text-shadow: 0px -1px 4px #8FBB94;
@@ -171,7 +171,7 @@ main{
 			top: 226px;
 			position: relative;
 		}
-		.slide-1 span.desc{
+		.mySlides span.desc{
 			font-size: 25px;
 		    color: #D2D2D2;
 		    text-shadow: 0px -1px 4px #D2D2D2;
