@@ -282,9 +282,16 @@ main{
 			height:560px;
 		}
 		.delivery div.city{
+			position:relative;
 		}
 		.delivery div.map .circle{
 
+		}
+		.delivery .moscow span{
+			position: relative;
+		    top: 325px;
+		    left: 180px;
+		    color: white;
 		}
 		.delivery .moscow .circle-big{
 			top: 342px;
