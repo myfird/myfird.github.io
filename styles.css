@@ -287,14 +287,13 @@ main{
 		.delivery div.city span{
 			font-size: 25px;
 			color: #FFFFFF;
-			text-shadow: 0px -2px 2px #FFFFFF;
 		}
 		.delivery div.map .circle{
 
 		}
 			.delivery .moscow span{
-				position: relative;
-			    top: 252px;
+			    position: relative;
+			    top: 230px;
 			    left: 178px;
 			}
 			.delivery .moscow .circle-big{
