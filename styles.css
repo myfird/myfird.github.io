@@ -188,6 +188,7 @@ main{
 			height: 250px;
 			display: inline-grid;
 			}
+		.category:hover .blur{}
 		.category span{
 			position: relative;
     		top: -142px;
