@@ -169,6 +169,8 @@ main{
 		.package div.desc{
 			width:40%;
 			float:left;
+			position: relative;
+    		z-index: 1;
 		}
 			.package span.header{
 				color:rgb(210,210,210);
@@ -206,13 +208,13 @@ main{
 			    margin-left: 1px;
 			    height: 20px;
 			    position: absolute;
-			    background: #8FBB94;
-			    z-index: -5;
 			    display: block;
 			}
 			.package span.next:hover .blur{
 			    filter: blur(10px);
 			    border-radius: 5px;
+			    background: #8FBB94;
+			    z-index: -5;
 			}
 
 		.package div.img-container{
