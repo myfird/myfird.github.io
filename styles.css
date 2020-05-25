@@ -288,8 +288,8 @@ main{
 			font-size: 25px;
 			color: #FFFFFF;
 		}
-		.delivery div.map .circle{
-
+		.delivery div.city:hover .circle-small{
+			background:white;
 		}
 			.delivery .moscow span{
 			    position: relative;
