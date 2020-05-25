@@ -188,7 +188,13 @@ main{
 			height: 250px;
 			display: inline-grid;
 			}
-		.category:hover .blur{}
+		.category:hover .blur{
+			filter: blur(10px);
+			background: #8FBB94;
+			z-index: -5;
+			width: 540px;
+			height: 150px;
+		}
 		.category span{
 			position: relative;
     		top: -142px;
