@@ -194,17 +194,17 @@ main{
 		}
 		.slide-2{
 		    background-image: url(items/slide-2a.png);
-		    margin-top: -102px;
+		    margin-top: -105px;
 		    width: 703px;
 		    height: 429px;
 		    float: left;
 		}
 		.slide-3{
-		    background-image: url(items/slide-3a.png);
+			background-image: url(items/slide-3a.png);
 		    width: 734px;
 		    height: 400px;
-		    top: -75px;
-		    left: 690px;
+		    top: -76px;
+		    left: 689px;
 		    position: relative;
 		}
 		blur{
