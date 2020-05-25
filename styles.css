@@ -29,12 +29,13 @@ body{
 	}
 	#cart .busket{
 		background-image: url(busket.png);
-		background-repeat: no-repeat;
-		height: 44px;
-		width:60px;
+	    background-repeat: no-repeat;
+	    height: 30px;
+	    width: 50px;
+	    background-size: contain;
 	    position: relative;
-	    top: -55px;
-	    left: 90px;
+	    top: -45px;
+	    left: 105px;
 	}
 	#cart:hover div.blur{
 	    background: #8FBB94;
