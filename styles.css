@@ -19,12 +19,13 @@ body{
     border-radius: 5px;
 }
 	#cart span{
-		font-size: 20px;
+	    font-size: 20px;
 	    color: #8FBB94;
 	    text-shadow: 0px 0px 10px #8FBB94;
 	    padding: 15px;
-    	display: block;
-    	background-color:#0D0D0D;
+	    display: block;
+	    z-index: 50;
+	    background-color: #0D0D0D;
 	}
 	#cart .busket{
 		background-image: url(busket.png);
@@ -36,13 +37,14 @@ body{
 	    left: 90px;
 	}
 	#cart:hover div.blur{
-		background: #8FBB94;
-		filter: blur(10px);
-		width: 158px;
-    	height: 50px;
-    	margin-left:1px;
-    	top: 10px;
-    	position: absolute;
+	    background: #8FBB94;
+	    filter: blur(10px);
+	    width: 150px;
+	    height: 50px;
+	    margin-left: 5px;
+	    top: 10px;
+	    position: absolute;
+	    z-index: -5;
 	}
 header{
 	height:182px;
