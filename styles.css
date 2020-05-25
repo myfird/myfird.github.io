@@ -194,7 +194,7 @@ main{
 		}
 		.slide-2{
 		    background-image: url(items/slide-2a.png);
-		    margin-top: -95px;
+		    margin-top: -102px;
 		    width: 703px;
 		    height: 429px;
 		    float: left;
@@ -203,8 +203,8 @@ main{
 		    background-image: url(items/slide-3a.png);
 		    width: 734px;
 		    height: 400px;
-		    top: -65px;
-		    left: 703px;
+		    top: -75px;
+		    left: 690px;
 		    position: relative;
 		}
 		blur{
