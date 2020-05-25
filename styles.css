@@ -282,13 +282,21 @@ main{
 			height:560px;
 		}
 		.delivery div.map .circle{
-			
-		}
-		.delivery div.map .circle-big{
 
 		}
+		.delivery div.map .circle-big{
+			width: 20px;
+		    height: 20px;
+		    display: block;
+		    background: red;
+		    border-radius: 50%;
+		}
 		.delivery div.map .circle-small{
-			
+		    width: 10px;
+		    height: 10px;
+		    display: block;
+		    background: white;
+		    border-radius: 50%;
 		}
 footer{
 	height:350px;
