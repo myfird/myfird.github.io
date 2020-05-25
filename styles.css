@@ -146,25 +146,24 @@ main{
 	    width: 0;
 	    height: 0;
 	    top: 230px;
-    border-top: 50px solid transparent;
-    border-right: 40px solid rgba(210,210,210,0.2);
-    border-bottom: 50px solid transparent;
+	    border-top: 50px solid transparent;
+	    border-right: 40px solid rgba(210,210,210,0.2);
+	    border-bottom: 50px solid transparent;
     }
 	.triangle-right{
-    width: 0;
-    top: 230px;
-    right: 0;
-    height: 0;
-    border-top: 50px solid transparent;
-    border-left: 40px solid rgba(210,210,210,0.2);
-    border-bottom: 50px solid transparent;
+	    width: 0;
+	    top: 230px;
+	    right: 0;
+	    height: 0;
+	    border-top: 50px solid transparent;
+	    border-left: 40px solid rgba(210,210,210,0.2);
+	    border-bottom: 50px solid transparent;
 	}
 	.slide{
 		background-repeat: no-repeat;
 	}
 		.mySlides{
 			height: 600px;
-		    background-size: contain;
 		}
 		.slide-1a{
 		    background-image: url(items/slide-1a.png);
