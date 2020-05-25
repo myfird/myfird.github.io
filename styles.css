@@ -125,6 +125,7 @@ header{
 
 main{
 	background:rgb(44,44,44);
+	z-index: -10;
 }
 	.slider{
 		height: 950px;
@@ -202,6 +203,7 @@ main{
 		    width: 1440px;
 		    position: absolute;
 		    top: 0;
+		    z-index: -9;
 		    background: #0D0D0D;
 			box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
 		}
