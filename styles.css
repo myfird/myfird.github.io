@@ -143,16 +143,16 @@ main{
 		background-repeat: no-repeat;
 	    background-size: contain;
 	    top: 230px;
-	}
-    .triangle-left {
 	    width: 35px;
 	    height: 54px;
+	}
+    .triangle-left {
+    	left:0;
 	    background-image: url(arrow-left.png);
     }
 	.triangle-right{
-	    width: 35px;
-	    height: 54px;
 	    background-image: url(arrow-right.png);
+	    right: 0;
 	}
 	.slide{
 		background-repeat: no-repeat;
