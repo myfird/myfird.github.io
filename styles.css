@@ -181,6 +181,13 @@ main{
 				color: #D2D2D2;
 				text-shadow: 0px -1px 4px #D2D2D2;
 			}
+			.package span.next{
+				background: #0D0D0D;
+				box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+				border-radius: 5px;
+				width:200px;
+				height:35px;
+			}
 
 		.package div.img-container{
 			width:60%;
