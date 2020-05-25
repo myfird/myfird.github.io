@@ -115,7 +115,6 @@ header{
 	nav{
 		float:left;
 		width:100%;
-		box-shadow: 0px 4px 55px rgba(255, 255, 255, 0.25);
 	}
 		nav a{
 			display: inline-block;
@@ -132,8 +131,7 @@ header{
 		}
 
 main{
-	ackground:rgb(44,44,44);
-	-index: -10;
+	box-shadow: 0px 4px 55px rgba(255, 255, 255, 0.25);
 }
 	.slider{
 		height: 930px;
