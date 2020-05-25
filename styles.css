@@ -27,6 +27,7 @@ body{
 	    display: block;
 	    z-index: 50;
 	    background-color: #0D0D0D;
+	    border-radius: 5px;
 	}
 	#cart .busket{
 		background-image: url(busket.png);
