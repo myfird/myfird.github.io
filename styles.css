@@ -201,6 +201,13 @@ main{
 			    text-align: center;
 			    padding: 8px 0 0 0;
 			}
+			.package span.blur{
+				width: 179px;
+				height: 21px;
+				background: #8FBB94;
+				filter: blur(10px);
+				border-radius: 5px;
+			}
 
 		.package div.img-container{
 			width:60%;
