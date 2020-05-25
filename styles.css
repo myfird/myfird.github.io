@@ -7,6 +7,15 @@ body{
 	background:black;
 	margin:0 auto;
 }
+.background-blur{
+    height: 3000px;
+    width: 1440px;
+    z-index: -5;
+    position: absolute;
+    background: #8FBB94;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    filter: blur(50px);
+	}
 #cart{
     position: sticky;
     width: 160px;
@@ -198,7 +207,7 @@ main{
 		    left: 703px;
 		    position: relative;
 		}
-		.background-blur{
+		blur{
 			eight: 950px;
 		    idth: 1440px;
 		    osition: absolute;
