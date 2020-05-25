@@ -130,21 +130,24 @@ main{
 		height: 950px;
 	}
 	.triangle{
-		
+		position: absolute;
 	}
     .triangle-left {
-      width: 0;
-      height: 0;
-      border-top: 50px solid transparent;
-      border-right: 100px solid red;
-      border-bottom: 50px solid transparent;
+	    width: 0;
+	    height: 0;
+	    top: 400px;
+	    border-top: 50px solid transparent;
+	    border-right: 100px solid red;
+	    border-bottom: 50px solid transparent;
     }
 	.triangle-right{
-      width: 0;
-      height: 0;
-      border-top: 50px solid transparent;
-      border-left: 100px solid red;
-      border-bottom: 50px solid transparent;
+		width: 0;
+	    top: 400px;
+	    right: 0;
+	    height: 0;
+	    border-top: 50px solid transparent;
+	    border-left: 100px solid red;
+	    border-bottom: 50px solid transparent;
 	}
 	.slide{
 		background-repeat: no-repeat;
