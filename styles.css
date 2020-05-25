@@ -133,8 +133,8 @@ header{
 		}
 
 main{
-	background:rgb(44,44,44);
-	z-index: -10;
+	ackground:rgb(44,44,44);
+	-index: -10;
 }
 	.slider{
 		height: 950px;
