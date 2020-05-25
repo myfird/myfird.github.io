@@ -13,7 +13,7 @@ body{
     z-index: -5;
     position: absolute;
     background: #8FBB94;
-    filter: blur(30px);
+    filter: blur(10px);
 	}
 #cart{
     position: sticky;
