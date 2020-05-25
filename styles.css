@@ -13,8 +13,7 @@ body{
     z-index: -5;
     position: absolute;
     background: #8FBB94;
-    transform: matrix(1, 0, 0, -1, 0, 0);
-    filter: blur(50px);
+    filter: blur(30px);
 	}
 #cart{
     position: sticky;
@@ -201,7 +200,6 @@ main{
 		}
 		.slide-3{
 			background-image: url(items/slide-3a.png);
-		    width: 744px;
 		    height: 400px;
 		    top: -76px;
 		    left: 689px;
