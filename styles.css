@@ -26,11 +26,10 @@ body{
 	#cart .busket{
 		background-image: url(busket.png);
 		background-repeat: no-repeat;
-		width:44px;
-		height: 36px;
-		    position: relative;
-    top: -30px;
-    left: 70px;
+		height: 44px;
+	    position: relative;
+	    top: -50px;
+	    left: 90px;
 	}
 header{
 	height:182px;
