@@ -35,7 +35,7 @@ body{
 	    top: -50px;
 	    left: 90px;
 	}
-	#cart:hover .blur{
+	#cart:hover div.blur{
 		background: #8FBB94;
 		filter: blur(10px);
 		width: 158px;
