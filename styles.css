@@ -188,16 +188,19 @@ main{
 			height: 250px;
 			display: inline-grid;
 			}
+		.category img{
+			z-index: 10;
+		}
 		.category:hover .blur{
 			filter: blur(10px);
 			background: #8FBB94;
-			z-index: -5;
+			z-index: 5;
 			width: 540px;
 			height: 150px;
 		    position: relative;
 		    top: -240px;
-		    left: 10px;
-		    width: 540px;
+		    left: 12px;
+		    width: 536px;
 		    height: 150px;
 		}
 		.category span{
