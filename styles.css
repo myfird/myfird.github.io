@@ -282,7 +282,7 @@ main{
 			height:560px;
 		}
 		.delivery div.city{
-			position:relative;
+			position:absolute;
 		}
 		.delivery div.city span{
 			font-size: 25px;
