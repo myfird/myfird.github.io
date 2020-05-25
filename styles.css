@@ -153,15 +153,18 @@ main{
 	.slide{
 		background-repeat: no-repeat;
 	}
-		.slide-1a{
-		    background-image: url(items/slide-1.png);
-		   	height: 600px;
+		.mySlides{
+			height: 600px;
 		    background-size: contain;
+		}
+		.slide-1a{
+		    background-image: url(items/slide-1a.png);
 		}
 		.slide-1b{
 		    background-image: url(items/slide-1b.png);
-		   	height: 600px;
-		    background-size: contain;
+		}
+		.slide-1c{
+		    background-image: url(items/slide-1b.png);
 		}
 		.mySlides span.name{
 			font-size: 55px;
