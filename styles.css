@@ -39,10 +39,10 @@ body{
 	#cart:hover div.blur{
 	    background: #8FBB94;
 	    filter: blur(10px);
-	    width: 150px;
-	    height: 50px;
-	    margin-left: 5px;
-	    top: 10px;
+	    width: 120px;
+	    height: 30px;
+	    margin-left: 20px;
+	    top: 25px;
 	    position: absolute;
 	    z-index: -5;
 	}
