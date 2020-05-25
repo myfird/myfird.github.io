@@ -165,6 +165,12 @@ main{
 		background: #000000;
 		box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.65);
 	}
+		.package div.desc{
+			width:40%;
+		}
+		.package div.img-container{
+			width:60%;
+		}
 
 
 
