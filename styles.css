@@ -8,7 +8,7 @@ body{
 	margin:0 auto;
 }
 #cart{
-    position: fixed;
+    position: sticky;
     width: 160px;
     height: 60px;
     background: #0D0D0D;
