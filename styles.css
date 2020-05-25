@@ -8,13 +8,14 @@ body{
 	margin:0 auto;
 }
 #cart{
-	position:fixed;
-	width: 150px;
-	height: 60px;
-	background: #0D0D0D;
-	border-radius: 3px;
-	right: 25px;
-    top: 225px;
+    position: sticky;
+    width: 150px;
+    height: 60px;
+    background: #0D0D0D;
+    border-radius: 3px;
+    top: 275px;
+    float: right;
+    z-index: 999;
 }
 	#cart span{
 		font-size: 20px;
