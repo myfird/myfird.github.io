@@ -147,12 +147,12 @@ main{
 	    height: 54px;
 	}
     .triangle-left {
-    	left: 35px;
+    	left: 40px;
 	    background-image: url(arrow-left.png);
     }
 	.triangle-right{
 	    background-image: url(arrow-right.png);
-	    right: 35px;
+	    right: 40px;
 	}
 	.slide{
 		background-repeat: no-repeat;
