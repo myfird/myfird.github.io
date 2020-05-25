@@ -197,6 +197,12 @@ main{
 		    left: 703px;
 		    position: relative;
 		}
+		.slider .blur{
+			height: 938px;
+		    width: 1440px;
+		    position: absolute;
+		    top: 0;
+		}
 	.categories{
 		padding: 50px 0;
 		background: #000000;
