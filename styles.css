@@ -281,6 +281,15 @@ main{
 		.delivery img{
 			height:560px;
 		}
+		.delivery div.map .circle{
+			
+		}
+		.delivery div.map .circle-big{
+
+		}
+		.delivery div.map .circle-small{
+			
+		}
 footer{
 	height:350px;
 	background: #000000;
