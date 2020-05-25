@@ -187,6 +187,7 @@ main{
 			width: 540px;
 			height: 250px;
 			display: inline-grid;
+			position:relative;
 			}
 		.category img{
 			z-index: 10;
