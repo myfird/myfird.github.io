@@ -7,6 +7,9 @@ body{
 	background:black;
 	margin:0 auto;
 }
+#cart{
+	position:sticky;
+}
 header{
 	height:182px;
 	background:rgb(13,13,13);
