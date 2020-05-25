@@ -291,6 +291,10 @@ main{
 		.delivery div.city:hover .circle-small{
 			background:white;
 		}
+		.delivery div.city:hover span{
+    		text-shadow: 0px -1px 4px #D2D2D2;
+		}
+
 			.delivery .moscow span{
 			    position: relative;
 			    top: 230px;
