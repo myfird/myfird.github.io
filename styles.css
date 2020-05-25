@@ -281,6 +281,10 @@ main{
 		.delivery img{
 			height:560px;
 		}
+		.delivery div.city{
+			width:100px;
+			height:30px;
+		}
 		.delivery div.map .circle{
 
 		}
