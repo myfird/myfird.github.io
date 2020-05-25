@@ -199,13 +199,12 @@ main{
 		    left: 703px;
 		    position: relative;
 		}
-		.slider .blur{
-			height: 950px;
-		    width: 1440px;
-		    position: absolute;
-		    top: 0;
-		    z-index: -9;
-		    background: green;
+		.background-blur{
+			eight: 950px;
+		    idth: 1440px;
+		    osition: absolute;
+		    op: 0;
+		    -index: -9;
 		    background: #8FBB94;
 		    transform: matrix(1, 0, 0, -1, 0, 0);
 		    filter: blur(50px);
