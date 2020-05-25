@@ -140,22 +140,20 @@ main{
 	}
 	.triangle{
 		position: absolute;
+		background-repeat: no-repeat;
+	    background-size: contain;
 	}
     .triangle-left {
 	    width: 35;
 	    height: 54;
 	    top: 230px;
-	    background-image: url(arrow-right.png);
-	    background-repeat: no-repeat;
+	    background-image: url(arrow-left.png);
     }
 	.triangle-right{
-	    width: 0;
+	    width: 35;
+	    height: 54;
 	    top: 230px;
-	    right: 0;
-	    height: 0;
-	    border-top: 50px solid transparent;
-	    border-left: 40px solid rgba(210,210,210,0.2);
-	    border-bottom: 50px solid transparent;
+	    background-image: url(arrow-right.png);
 	}
 	.slide{
 		background-repeat: no-repeat;
