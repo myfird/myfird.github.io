@@ -154,10 +154,15 @@ main{
 		background-repeat: no-repeat;
 	}
 		.slide-1{
-	    background-image: url(items/slide-1.png);
-	   	height: 600px;
-	    background-size: contain;
-	}
+		    background-image: url(items/slide-1.png);
+		   	height: 600px;
+		    background-size: contain;
+		}
+		.slide-1b{
+		    background-image: url(items/slide-1b.png);
+		   	height: 600px;
+		    background-size: contain;
+		}
 		.slide-1 span.name{
 			font-size: 55px;
 			color: #8FBB94;
