@@ -289,17 +289,21 @@ main{
 
 		}
 		.delivery div.map .circle-big{
-			width: 20px;
-		    height: 20px;
+		    width: 13px;
+		    height: 13px;
 		    display: block;
-		    background: red;
+		    position: relative;
+		    background: #8FBB94;
 		    border-radius: 50%;
 		}
 		.delivery div.map .circle-small{
-		    width: 10px;
-		    height: 10px;
+		    width: 9px;
+		    height: 9px;
+		    position: absolute;
+		    top: 2px;
+		    left: 2px;
 		    display: block;
-		    background: white;
+		    background: rgb(44,44,44);
 		    border-radius: 50%;
 		}
 footer{
