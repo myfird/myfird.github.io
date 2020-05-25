@@ -145,7 +145,7 @@ main{
 	    width: 35;
 	    height: 54;
 	    top: 230px;
-	    background-image: url(arrow-left.png);
+	    background-image: url(arrow-right.png);
 	    background-repeat: no-repeat;
     }
 	.triangle-right{
