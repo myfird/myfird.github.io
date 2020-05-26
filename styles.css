@@ -198,10 +198,10 @@ main{
 		.slide-3{
 		    background-image: url(items/slide-3a.png);
 		    height: 400px;
-		    top: -400px;
-		    width: 752px;
-		    left: 2px;
-		    position: relative;
+		    top: 525px;
+		    width: 750px;
+		    right: 0;
+		    position: absolute;
 		    float: right;
 		}
 	.categories{
@@ -323,8 +323,8 @@ main{
 		.package div.img-container{
 			width:60%;
 			float: right;
+			position: relative;
 			z-index: 10;
-    		position: relative;
 		}
 			.package img{
 			    width: 600px;
