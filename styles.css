@@ -203,14 +203,18 @@ main{
 		    position: relative;
 		}
 	.categories{
-		padding: 50px 0 0 0;
-		background: #000000;
-		box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.65);
-		background-image: url(pattern2.png);
-		background-repeat: repeat;
+    	padding: 50px 0 0 0;
+    	background: black;
+    	box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.65);
 	}
 		.categories .background{
-			background:pink;
+			height: 1000px;
+		    width: 1440px;
+		    z-index: 1;
+		    opacity: 0.8;
+		    position: absolute;
+		    background-image: url(pattern2.png);
+		    background-repeat: repeat;
 		}
 		.categories a{
 			display: inline-grid;
