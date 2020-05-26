@@ -196,12 +196,13 @@ main{
 		    float: left;
 		}
 		.slide-3{
-			background-image: url(items/slide-3a.png);
+		    background-image: url(items/slide-3a.png);
 		    height: 400px;
-		    top: -76px;
-		    left: 689px;
+		    top: -400px;
+		    width: 752px;
+		    left: 2px;
 		    position: relative;
-		    width:750px;
+		    float: right;
 		}
 	.categories{
     	padding-top: 50px;
