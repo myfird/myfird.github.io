@@ -209,6 +209,9 @@ main{
 		background-image: url(pattern2.png);
 		background-repeat: repeat;
 	}
+		.categories .background{
+			background:pink;
+		}
 		.categories a{
 			display: inline-grid;
 		}
