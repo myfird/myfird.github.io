@@ -89,10 +89,9 @@ header{
 	    right: 50px;
 	}
 		.contacts a.tel{
-			font-size: 24px;
+			font-size: 25px;
 			color:rgb(210,210,210);
 			display: block;
-		    margin: 10px 60px 0 0;
 		    float: right;
 		}
 		.social-icons{
