@@ -67,7 +67,7 @@ header{
 		float: left;
 	}
 		#logo img{
-			margin:30px 0 0 30px;
+			margin:30px 0 0 50px;
 		}
 	.gallery{
 	    height: 140px;
@@ -98,6 +98,7 @@ header{
 		    margin: 10px 20px 0 0;
 		    float: right;
 		    background-image: url(social.png);
+		    background-image: no-repeat;
 		}
 		.social-icons a{
 			background-repeat: no-repeat;
