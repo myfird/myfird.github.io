@@ -82,9 +82,10 @@ header{
 			display: block;
 		}
 	.contacts{
-		height:140px;
-		width:30%;
-		float: left;
+		width: 30%;
+	    position: relative;
+	    top: 30px;
+	    right: 50px;
 	}
 		.contacts a.tel{
 			font-size: 24px;
