@@ -92,13 +92,15 @@ header{
 			font-size: 25px;
 			color:rgb(210,210,210);
 			display: block;
-		    float: right;
+		    float: left;
 		}
 		.social-icons{
-		    height: 50px;
+		    height: 30px;
 		    width: 100px;
 		    float: right;
 		    background-image: url(social.png);
+		    top: -15px;
+		    position: relative;
 		    background-repeat: no-repeat;
 		}
 		.social-icons a{
