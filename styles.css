@@ -83,6 +83,7 @@ header{
 		}
 	.contacts{
 		width: 30%;
+	    float: left;
 	    position: relative;
 	    top: 30px;
 	    right: 50px;
