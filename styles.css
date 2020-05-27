@@ -197,10 +197,10 @@ main{
 		}
 		.slide-3{
 		    background-image: url(items/slide-3a.png);
-		    height: 400px;
-		    top: 525px;
+			height: 400px;
+		    top: 523px;
 		    width: 750px;
-		    right: 0;
+		    right: 1px;
 		    position: absolute;
 		    float: right;
 		}
