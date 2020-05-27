@@ -85,7 +85,7 @@ header{
 		width: 30%;
 	    float: left;
 	    position: relative;
-	    top: 30px;
+	    top: 40px;
 	    right: 40px;
 	}
 		.contacts a.tel{
@@ -93,6 +93,7 @@ header{
 			color:rgb(210,210,210);
 			display: block;
 		    float: left;
+		    margin-left: 30px;
 		}
 		.social-icons{
 		    height: 30px;
