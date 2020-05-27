@@ -95,11 +95,11 @@ header{
 		    float: right;
 		}
 		.social-icons{
-		    height: 30px;
-		    margin: 10px 20px 0 0;
+		    height: 50px;
+		    width: 100px;
 		    float: right;
 		    background-image: url(social.png);
-		    background: no-repeat;
+		    background-repeat: no-repeat;
 		}
 		.social-icons a{
 			background-repeat: no-repeat;
