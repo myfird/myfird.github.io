@@ -145,6 +145,10 @@ main{
 	.test{
 		background-image: url(test.png);
 		background-repeat: no-repeat;
+	    height: 600px;
+	    width: 1440px;
+	    position: absolute;
+	    z-index: -1;
 	}
 	.slider{
 		height: 926px;
