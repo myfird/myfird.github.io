@@ -139,9 +139,6 @@
 	var slideIndex = 1;
 	showSlides(slideIndex);
 
-	function sleep(ms) {
-	  return new Promise(resolve => setTimeout(resolve, ms));
-	}
 	// Next/previous controls
 	function plusSlides(n) {
 	  showSlides(slideIndex += n);
@@ -166,7 +163,6 @@
 	      slides3[i].style.display = "none";
 	  }
 	  slides[slideIndex-1].style.display = "block";
-	  sleep(1500);
 	  slides2[slideIndex-1].style.display = "block";
 	  slides3[slideIndex-1].style.display = "block";
 	}
