@@ -160,8 +160,8 @@ main{
 	  to {opacity: 1; background-color:black;}
 	}
 	@keyframes fade {
-	  from {opacity: .4;background-color:red;}
-	  to {opacity: 1;background-color:red;}
+	  from {opacity: .4;background-color:black;}
+	  to {opacity: 1;background-color:black;}
 	}
 	.triangle{
 		position: absolute;
