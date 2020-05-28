@@ -198,6 +198,24 @@ main{
 		.slide-1c{
 		    background-image: url(items/slide-1c.png);
 		}
+		.slide-2a{
+		    background-image: url(items/slide-2a.png);
+		}
+		.slide-2b{
+		    background-image: url(items/slide-2b.png);
+		}
+		.slide-2c{
+		    background-image: url(items/slide-2c.png);
+		}
+		.slide-3a{
+		    background-image: url(items/slide-3a.png);
+		}
+		.slide-3b{
+		    background-image: url(items/slide-3b.png);
+		}
+		.slide-3c{
+		    background-image: url(items/slide-3c.png);
+		}
 		.mySlides span.name{
 			font-size: 55px;
 			color: #8FBB94;
@@ -215,14 +233,12 @@ main{
 		    position: relative;
 		}
 		.slide-2{
-		    background-image: url(items/slide-2a.png);
 		    margin-top: -105px;
 		    width: 703px;
 		    height: 429px;
 		    float: left;
 		}
 		.slide-3{
-		    background-image: url(items/slide-3a.png);
 			height: 400px;
 		    top: 523px;
 		    width: 750px;
