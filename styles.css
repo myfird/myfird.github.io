@@ -156,7 +156,9 @@ main{
 	    width: 60px;
 	    height: 60px;
 	}
-
+	.triangle:hover{
+		background:pink;
+	}
     .triangle-left {
     	left: 40px;
 	    background-image: url(arrow-left.png);
