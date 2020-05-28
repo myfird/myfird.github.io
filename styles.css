@@ -153,8 +153,9 @@ main{
 		background-repeat: no-repeat;
 	    background-size: contain;
 	    top: 250px;
-	    width: 35px;
-	    height: 54px;
+	    width: 60px;
+	    height: 60px;
+	    z-index: 999;
 	}
     .triangle-left {
     	left: 40px;
@@ -162,7 +163,7 @@ main{
     }
 	.triangle-right{
 	    background-image: url(arrow-right.png);
-	    right: 40px;
+	    right: 30px;
 	}
 	.slide{
 		background-repeat: no-repeat;
