@@ -145,6 +145,7 @@ main{
 		position:relative;
 		top: -1px;
     	z-index: -5;
+    	max-width: 1440px;
 	}
 	.triangle{
 		position: absolute;
