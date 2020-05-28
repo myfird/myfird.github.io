@@ -172,9 +172,10 @@ main{
 	    top: 250px;
 	    width: 60px;
 	    height: 60px;
+	    opacity: 0.5;
 	}
 	.triangle:hover{
-		background:pink;
+		opacity: 1;
 	}
     .triangle-left {
     	left: 40px;
