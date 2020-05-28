@@ -139,6 +139,7 @@
 
 	// Next/previous controls
 	function plusSlides(n) {
+		slider.style.background ="black";
 	  showSlides(slideIndex += n);
 	}
 
@@ -149,6 +150,7 @@
 
 	function showSlides(n) {
 	  var i;
+	  var slider = document.getElementsByClassName("slider");
 	  var slides = document.getElementsByClassName("mySlides");
 	  var slides2 = document.getElementsByClassName("slide-2");
 	  var slides3 = document.getElementsByClassName("slide-3");
