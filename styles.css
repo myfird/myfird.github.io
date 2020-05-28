@@ -158,12 +158,12 @@ main{
 	}
 
 	@-webkit-keyframes fade {
-	  from {opacity: .4; background-color:black;}
-	  to {opacity: 1; background-color:black;}
+	  from {opacity: .6;}
+	  to {opacity: 1;}
 	}
 	@keyframes fade {
-	  from {opacity: .4;background-color:black;}
-	  to {opacity: 1;background-color:black;}
+	  from {opacity: .6;}
+	  to {opacity: 1;}
 	}
 	.triangle{
 		position: absolute;
