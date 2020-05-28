@@ -151,13 +151,14 @@ main{
 	    z-index: -1;
 	}
 	.test2{
-		background-image: url(test2.png);
-		background-repeat: no-repeat;
-		margin-top: -105px;
-		width: 703px;
-		height: 429px;
-		float: left;
-		z-index: -1;
+	    background-image: url(test2.png);
+	    background-repeat: no-repeat;
+	    margin-top: 495px;
+	    width: 703px;
+	    height: 429px;
+	    float: left;
+	    z-index: -1;
+	    position: absolute;
 	}
 	.test3{
 		background-image: url(test3.png);
