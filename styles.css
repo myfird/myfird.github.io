@@ -184,6 +184,7 @@ main{
 	}
 	.slide{
 		background-repeat: no-repeat;
+		display: none;
 	}
 		.mySlides{
 			height: 600px;
