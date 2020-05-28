@@ -143,10 +143,10 @@
 	// Next/previous controls
 	function plusSlides(n) {
 	for (i = 0; i < triangles.length; i++) {
-	      triangles[i].style.display = "none";
+	      triangles[i].style.visibility ="hidden";
 		}
 	for (i = 0; i < triangles.length; i++) {
-	      triangles[i].style.display = "block";
+	      triangles[i].style.visibility ="visible";
 		}
 	  showSlides(slideIndex += n);
 	}
