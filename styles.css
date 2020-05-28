@@ -144,7 +144,7 @@ main{
 		height: 926px;
 		position:relative;
 		top: -1px;
-    	z-index: 9;
+    	z-index: -5;
     	max-width: 1440px;
     	box-sizing: border-box;
 	}
