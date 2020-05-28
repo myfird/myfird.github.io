@@ -41,8 +41,8 @@
 	</div>
 	<main>
 		<div class="slider slideshow-container">
-			<div class="triangle triangle-left" onclick="plusDivs(-1)"></div>
-			<div class="triangle triangle-right" onclick="plusDivs(+1)"></div>
+			<div class="triangle triangle-left" onclick="plusSlides(-1)"></div>
+			<div class="triangle triangle-right" onclick="plusSlides(+1)"></div>
 			<div class="slide slide-1a mySlides">
 				<span class="name">Цельные браслеты</span>
 				<span class="desc">Уникальные браслеты из нефрита любых оттенков</span>
@@ -149,7 +149,7 @@
 	function showSlides(n) {
 	  var i;
 	  var slides = document.getElementsByClassName("mySlides");
-	  
+
 	  if (n > slides.length) {slideIndex = 1}
 	  if (n < 1) {slideIndex = slides.length}
 	  for (i = 0; i < slides.length; i++) {
