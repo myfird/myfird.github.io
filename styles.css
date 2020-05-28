@@ -144,7 +144,7 @@ main{
 		height: 926px;
 		position:relative;
 		top: -1px;
-    	z-index: -5;
+    	z-index: 9;
     	max-width: 1440px;
     	box-sizing: border-box;
 	}
@@ -155,9 +155,8 @@ main{
 	    top: 250px;
 	    width: 60px;
 	    height: 60px;
-	    z-index: 999;
 	}
-	
+
     .triangle-left {
     	left: 40px;
 	    background-image: url(arrow-left.png);
