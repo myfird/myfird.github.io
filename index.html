@@ -138,9 +138,14 @@
 <script>
 	var slideIndex = 1;
 	showSlides(slideIndex);
+	var triangles = document.getElementsByClassName("triangle");
 
 	// Next/previous controls
 	function plusSlides(n) {
+	  for (i = 0; i < triangles.length; i++) {
+	      triangles[i].style.display = "none";
+	      triangles[i].style.display = "block";
+		}
 	  showSlides(slideIndex += n);
 	}
 
