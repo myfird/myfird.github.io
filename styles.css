@@ -772,10 +772,10 @@ footer{
 	    float: left;
 	}
 		.detItem .photo img{
-		    width: 500px;
-		    height: 400px;
+		    width: 600px;
+		    height: 450px;
 		    border: solid 20px #252525;
-		    margin-left: 150px;
+		    margin-left: 100px;
 		}
 	.detItem .desc{
 		height: 500px;
@@ -799,12 +799,16 @@ footer{
 	}
 	.detItem .photos{
 		float: left;
-    	width: 60%;
+	    width: 764px;
+	    padding-left: 100px;
 	}
 		.detItem .photos img{
-			width:120px;
-			height:120px;
-			border: solid 20px #252525;
+		    width: 120px;
+		    height: 120px;
+		    border: solid 20px #252525;
+		    display: inline-block;
+		    float: left;
+		    margin: 0;
 		}
 
 
