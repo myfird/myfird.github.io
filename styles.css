@@ -764,12 +764,11 @@ footer{
 .detItem{
 	position: relative;
     height: 1000px;
-    background-color:#0A0A0A;
+	clear: both;
 }
 	.detItem .photo{
 	    width: 60%;
 	    height: 500px;
-	    position: relative;
 	    float: left;
 	}
 		.detItem img{
@@ -780,10 +779,7 @@ footer{
 	.detItem .desc{
 		height: 500px;
 	    width: 40%;
-	    position: relative;
 	    float: right;
-	    top: -60px;
-	    right: 0;
 	    background-color: green;
 	}
 
