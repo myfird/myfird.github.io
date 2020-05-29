@@ -525,9 +525,13 @@ footer{
 		}
 	.banner1{
 		background-image: url(/items/banglesPage/banner1.png);
+		height: 600px;
 	}
 	.banner2{
 		background-image: url(/items/banglesPage/banner2.png);
+		height: 300px;
+		top: -100px;
+		position: relative;
 	}
 	.banner3{
 		background-image: url(items/banglesPage/banner3.png);
