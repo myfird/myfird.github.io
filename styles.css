@@ -657,9 +657,10 @@ footer{
 	position: relative;
 }
 	.whiteBangles .triangle{
-		top:480px;
+		top:475px;
 	}
 	.whiteBangles .delimiter{
+		width: 100%;
 		height: 10px;
 		position: absolute;
 		top:500px;
