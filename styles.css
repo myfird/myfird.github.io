@@ -772,10 +772,10 @@ footer{
 	    float: left;
 	}
 		.detItem img{
-			width:600px;
-			height:500px;
-			border: solid 20px #252525;
-    		margin-left: 100px;
+		    width: 500px;
+		    height: 400px;
+		    border: solid 20px #252525;
+		    margin-left: 150px;
 		}
 	.detItem .desc{
 		height: 500px;
