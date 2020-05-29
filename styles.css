@@ -681,16 +681,28 @@ footer{
 			    height: 500px;
 			    overflow: hidden;
 			}
-			.whiteBangles .up .photo{
+			.whiteBangles .up .float{
 				float:left;
 			}
-			.whiteBangles .down .photo{
+			.whiteBangles .down .float{
 				float:right;
 			}
 			.whiteBangles img{
 				width: 100%;
 			}
+		.whiteBangles .item .description{
 
+		}
+		.whiteBangles .description .name{
+			height: 500px;
+		    width: 50%;
+		    float: left;
+		}
+		.whiteBangles .description .price{
+			height: 500px;
+		    width: 50%;
+		    float: left;
+		}
 
 
 
