@@ -677,8 +677,11 @@ footer{
 
 		}
 			.whiteBangles .item .photo{
-				width:30%;
-				height:500px;
+			    width: 50%;
+			    height: 500px;
+			}
+			.whiteBangles img{
+				width: 100%;
 			}
 
 
