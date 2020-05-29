@@ -656,10 +656,16 @@ footer{
 	background:black;
 }
 
+
 .whiteBangles{
 	height: 1060px;
 	background-color: #0D0D0D;
 	position: relative;
+}
+.spacing{
+	height:200px;
+	background:dimgray;
+	width:100%;
 }
 	.whiteBangles .triangle{
 		top:475px;
@@ -672,9 +678,6 @@ footer{
 		background-image: url(delimiter.png);
 		background-repeat: no-repeat;
 		background-size:cover;
-	}
-	.upper{
-		top:-50px;
 	}
 	.whiteBangles .item{
 		height:500px;
