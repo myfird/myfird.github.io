@@ -502,7 +502,7 @@ footer{
 /* bangles page */
 
 .banner-container{
-
+	position:relative;
 }
 .banner{
 	background-repeat: no-repeat;
