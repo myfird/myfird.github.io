@@ -814,7 +814,13 @@ footer{
 		float: left;
     	width: 40%;
 	}
-
+		.detItem .price{
+			font-size:80px;
+		}
+		.detItem .price span{
+			display: inline;
+			font-size: 25px;
+		}
 
 
 
