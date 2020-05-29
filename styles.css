@@ -746,13 +746,13 @@ footer{
 		    background-repeat: no-repeat;
 		    height: 350px;
 		    position: absolute;
-    		width: 730px;
+    		width: 760px;
 		    right: 5px;
 		    z-index: 5;
-		    margin: 100px 0 0 0;
+		    margin: 50px 0 0 0;
 		}
 		.down .test4{
-    		margin: 150px 0 0 0;
+    		margin: 100px 0 0 0;
     		left: 5px;
 		}
 
