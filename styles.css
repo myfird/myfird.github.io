@@ -506,6 +506,7 @@ footer{
 }
 .banner{
 	background-repeat: no-repeat;
+	position: absolute;
 }
 	.banner span.name{
 		font-size: 55px;
@@ -529,18 +530,30 @@ footer{
 	}
 	.banner2{
 		background-image: url(/items/banglesPage/banner2.png);
-		height: 300px;
-		top: -100px;
-		position: relative;
+	    height: 300px;
+	    top: 500px;
+	    width: 400px;
 	}
 	.banner3{
 		background-image: url(items/banglesPage/banner3.png);
+		height: 300px;
+	    top: 516px;
+	    left: 375px;
+	    width: 400px;
 	}
 	.banner4{
 		background-image: url(items/banglesPage/banner4.png);
+		top: 526px;
+    	left: 695px;
+    	height: 300px;
+    	width: 400px;
 	}
 	.banner5{
 		background-image: url(items/banglesPage/banner5.png);
+		height: 300px;
+	    top: 556px;
+	    right: -24px;
+	    width: 400px;
 	}
 		.banner span.name{
 			font-size: 55px;
