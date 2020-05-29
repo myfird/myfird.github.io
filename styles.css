@@ -689,10 +689,14 @@ footer{
 			}
 			.whiteBangles img{
 				width: 100%;
+			    z-index: 5;
+			    position: relative;
 			}
 		.whiteBangles .item .description{
 			width:50%;
 			height:500px;
+			z-index: 6;
+    		position: relative;
 		}
 			.whiteBangles .item .description h3 {
 				font-size: 40px;
@@ -738,9 +742,13 @@ footer{
 			padding-top:50px;
 		}
 		.test4{
-			background-image: url(test4.png);
-			background-repeat: no-repeat;
-			
+		    background-image: url(test4.png);
+		    background-repeat: no-repeat;
+		    height: 350px;
+		    position: absolute;
+		    width: 1000px;
+		    right: 5px;
+		    z-index: 5;
 		}
 
 
