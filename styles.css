@@ -768,14 +768,16 @@ footer{
 	.detItem .photo{
 	    width: 50%;
 	    height: 500px;
-	    position: absolute;
+	    position: relative;
 	    float: left;
 	    background-color: pink;
 	}
 	.detItem .desc{
-	    height: 500px;
+		height: 500px;
 	    width: 50%;
-	    position: absolute;
+	    position: relative;
+	    float: right;
+	    top: -60px;
 	    right: 0;
 	    background-color: green;
 	}
