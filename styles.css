@@ -577,6 +577,11 @@ footer{
 		width:100%;
 		height:200px;
 	}
+		.aboutCategory .info{
+			width:350px;
+			background:pink;
+			width:400px;
+		}
 		.aboutCategory .creating{
 			width:50%;
 		}
@@ -595,6 +600,7 @@ footer{
 				width:100px;
 				height:100px;
 			}
+
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #eee;
