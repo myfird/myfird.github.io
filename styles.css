@@ -698,14 +698,14 @@ footer{
 			.whiteBangles .item .description h3 {
 			}
 			.whiteBangles .descElem{
-				font-size:35px;
+				font-size:25px;
 				display:block;
 				color: #D2D2D2;
 			    text-shadow: 0px -1px 4px #D2D2D2;
 			    width: 280px;
 			}
 			.whiteBangles .item .description h3 {
-				font-size: 45px;
+				font-size: 40px;
 				color: #8FBB94;
 				text-shadow: 0px -1px 4px #8FBB94;
 			}
@@ -718,6 +718,7 @@ footer{
 			height: 500px;
 		    width: 50%;
 		    float: left;
+		    padding: 15px 0 0 0;
 		}
 		.whiteBangles .data .price{
 			font-size:80px;
