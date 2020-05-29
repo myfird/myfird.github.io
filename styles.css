@@ -598,8 +598,8 @@ footer{
 			.aboutCategory .hammer{
 			    background-image: url(hammer.png);
 			    background-repeat: no-repeat;
-			    width: 100px;
-			    height: 100px;
+			    width: 80px;
+			    height: 80px;
 			    display: block;
 			    background-size: cover;
 			    float: left;
@@ -615,8 +615,8 @@ footer{
 			.aboutCategory .divider{
 				background-image: url(divider.png);
 			    background-repeat: no-repeat;
-			    width: 100px;
-			    height: 100px;
+			    width: 80px;
+			    height: 80px;
 			    display: block;
 			    background-size: cover;
 			    float: left;
