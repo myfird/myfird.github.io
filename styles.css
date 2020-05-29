@@ -813,6 +813,7 @@ footer{
 	.detItem .buy{
 		float: left;
     	width: 40%;
+    	position: relative;
 	}
 		.detItem .price{
 			font-size:80px;
@@ -824,8 +825,8 @@ footer{
 			font-size: 25px;
 		}
 		.detItem .buy .next{
-			margin-top: 15px;
-    		float: left;
+			position: absolute;
+		    top: 65px;
 		}
 
 
