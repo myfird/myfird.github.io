@@ -823,7 +823,10 @@ footer{
 			display: inline;
 			font-size: 25px;
 		}
-
+		.detItem .buy .next{
+			margin-top: 15px;
+    		float: left;
+		}
 
 
 
