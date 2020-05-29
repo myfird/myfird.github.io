@@ -797,6 +797,13 @@ footer{
 		margin: 20px 0;
     	width: 60%;
 	}
+	.detItem .photos{
+		float: left;
+    	width: 60%;
+	}
+		.detItem .photos img{
+			width:20%;
+		}
 
 
 
