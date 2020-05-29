@@ -181,9 +181,9 @@ main{
 	}
 	.fade {
 	  -webkit-animation-name: fade;
-	  -webkit-animation-duration: 2.5s;
+	  -webkit-animation-duration: 20s;
 	  animation-name: fade;
-	  animation-duration: 2.5s;
+	  animation-duration: 20s;
 	}
 
 	@-webkit-keyframes fade {
@@ -202,9 +202,9 @@ main{
 	    top: 250px;
 	    width: 60px;
 	    height: 60px;
-	    opacity: 0.5;
+	    opacity: 0.3;
 	    cursor: pointer;
-	    z-index: 999;
+	    z-index: 0;
 	}
 	.triangle:hover{
 		opacity: 0.8;
