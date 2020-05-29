@@ -759,7 +759,23 @@ footer{
   			transform: scaleX(-1);
 		}
 
+/* detailed item */
 
+.detItem{
+
+}
+	.detItem .photo{
+		width:50%;
+		height:500px;
+		float:left;
+		background-color: pink;
+	}
+	.detItem .desc{
+		height:500px;
+		width:50%;
+		float:right;
+		background-color:green;
+	}
 
 
 
