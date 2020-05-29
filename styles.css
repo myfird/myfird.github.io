@@ -204,7 +204,7 @@ main{
 	    height: 60px;
 	    opacity: 0.3;
 	    cursor: pointer;
-	    z-index: 0;
+	    z-index: 5;
 	}
 	.triangle:hover{
 		opacity: 0.8;
