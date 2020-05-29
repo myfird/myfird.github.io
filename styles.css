@@ -762,19 +762,22 @@ footer{
 /* detailed item */
 
 .detItem{
-
+	position: relative;
+    height: 1000px;
 }
 	.detItem .photo{
-		width:50%;
-		height:500px;
-		float:left;
-		background-color: pink;
+	    width: 50%;
+	    height: 500px;
+	    position: absolute;
+	    float: left;
+	    background-color: pink;
 	}
 	.detItem .desc{
-		height:500px;
-		width:50%;
-		float:right;
-		background-color:green;
+	    height: 500px;
+	    width: 50%;
+	    position: absolute;
+	    right: 0;
+	    background-color: green;
 	}
 
 
