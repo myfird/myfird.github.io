@@ -766,7 +766,7 @@ footer{
     height: 1000px;
 }
 	.detItem .photo{
-	    width: 50%;
+	    width: 60%;
 	    height: 500px;
 	    position: relative;
 	    float: left;
@@ -774,7 +774,7 @@ footer{
 	}
 	.detItem .desc{
 		height: 500px;
-	    width: 50%;
+	    width: 4%;
 	    position: relative;
 	    float: right;
 	    top: -60px;
