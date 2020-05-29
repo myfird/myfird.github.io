@@ -713,6 +713,7 @@ footer{
 		}
 		.whiteBangles .data .price span{
 			display: inline;
+			font-size: 25px;
 		}
 		.whiteBangles .descElem{
 			font-size:25px;
