@@ -712,12 +712,10 @@ footer{
 		.whiteBangles .description .name{
 			height: 500px;
 		    width: 50%;
-		    float: left;
 		}
 		.whiteBangles .description .data{
 			height: 500px;
 		    width: 50%;
-		    float: left;
 		    padding: 15px 0 0 0;
 		}
 		.whiteBangles .data .price{
