@@ -652,9 +652,18 @@ footer{
 }
 
 .whiteBangles{
-	height: 1000px;
+	height: 1010px;
 	background-color: #0D0D0D;
+	position: relative;
 }
+	.delimiter{
+		height: 10px;
+		position: absolute;
+		top:500px;
+		background-image: url(delimiter.png);
+		background-repeat: no-repeat;
+		background-size:cover;
+	}
 	.item{
 		height:500px;
 		width:100%;
