@@ -584,8 +584,9 @@ footer{
 			width:400px;
 		}
 		.aboutCategory .creating{
-			width:50%;
-			height: 200px;
+		    width: 50%;
+		    height: 200px;
+		    float: left;
 		}
 			.aboutCategory .hammer{
 			    background-image: url(hammer.png);
@@ -594,18 +595,35 @@ footer{
 			    height: 100px;
 			    display: block;
 			    background-size: cover;
+			    float: left;
+			    margin: 50px 0 0 75px;
+			}
+			.aboutCategory .howToCreate{
+			    width: 470px;
+			    height: 200px;
+			    float: left;
+			    margin: 0 0 0 75px;
 			}
 		.aboutCategory .size{
 			width:50%;
 			height: 200px;
+			float: left;
 		}
 			.aboutCategory .divider{
 				background-image: url(divider.png);
-				background-repeat: no-repeat;
-				width:100px;
-				height:100px;
-				display: block;
+			    background-repeat: no-repeat;
+			    width: 100px;
+			    height: 100px;
+			    display: block;
 			    background-size: cover;
+			    float: left;
+			    margin: 50px 0 0 75px;
+			}
+			.aboutCategory .howToSize{
+			    width: 470px;
+			    height: 200px;
+			    float: left;
+			    margin: 0 0 0 75px;
 			}
 
 /* Style the button that is used to open and close the collapsible content */
