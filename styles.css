@@ -393,7 +393,7 @@ main{
 			    position: absolute;
 			    display: block;
 			}
-			span.next:hover .blur{
+			.next:hover .blur{
 			    filter: blur(10px);
 			    border-radius: 5px;
 			    background: #8FBB94;
