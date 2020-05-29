@@ -774,8 +774,8 @@ footer{
 		.detItem img{
 			width:600px;
 			height:500px;
-			border: solid 20px #252525;\
-			margin-left: 100px;
+			border: solid 20px #252525;
+    		margin-left: 100px;
 		}
 	.detItem .desc{
 		height: 500px;
