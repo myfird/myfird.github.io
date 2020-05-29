@@ -816,6 +816,8 @@ footer{
 	}
 		.detItem .price{
 			font-size:80px;
+			color: #D2D2D2;
+			text-shadow: 0px -1px 4px #D2D2D2;
 		}
 		.detItem .price span{
 			display: inline;
