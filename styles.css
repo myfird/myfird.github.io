@@ -771,7 +771,7 @@ footer{
 	    height: 500px;
 	    float: left;
 	}
-		.detItem img{
+		.detItem .photo img{
 		    width: 500px;
 		    height: 400px;
 		    border: solid 20px #252525;
