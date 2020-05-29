@@ -774,7 +774,8 @@ footer{
 		.detItem img{
 			width:600px;
 			height:500px;
-			border: solid 20px #252525;
+			border: solid 20px #252525;\
+			margin-left: 100px;
 		}
 	.detItem .desc{
 		height: 500px;
@@ -782,7 +783,12 @@ footer{
 	    float: right;
 	    background-color: green;
 	}
-
+	.detItem .desc span{
+		font-size:25px;
+		display:block;
+		color: #D2D2D2;
+		text-shadow: 0px -1px 4px #D2D2D2;
+	}
 
 
 
