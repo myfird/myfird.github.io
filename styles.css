@@ -810,6 +810,10 @@ footer{
 		    float: left;
 		    margin: 0;
 		}
+	.detItem .buy{
+		float: left;
+    	width: 40%;
+	}
 
 
 
