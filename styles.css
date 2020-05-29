@@ -386,14 +386,14 @@ main{
 			    text-align: center;
 			    padding: 8px 0 0 0;
 			}
-			.package span.blur{
+			.next span.blur{
 			    width: 198px;
 			    margin-left: 1px;
 			    height: 20px;
 			    position: absolute;
 			    display: block;
 			}
-			.package span.next:hover .blur{
+			span.next:hover .blur{
 			    filter: blur(10px);
 			    border-radius: 5px;
 			    background: #8FBB94;
