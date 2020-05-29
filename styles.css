@@ -691,7 +691,8 @@ footer{
 				width: 100%;
 			}
 		.whiteBangles .item .description{
-
+			width:50%;
+			height:500px;
 		}
 		.whiteBangles .description .name{
 			height: 500px;
