@@ -503,6 +503,7 @@ footer{
 
 .banner-container{
 	position:relative;
+	height: 784px;
 }
 .banner{
 	background-repeat: no-repeat;
