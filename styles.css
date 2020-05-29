@@ -770,8 +770,11 @@ footer{
 	    height: 500px;
 	    position: relative;
 	    float: left;
-	    background-color: pink;
 	}
+		.detItem img{
+			width:80%;
+			border: solid 20px #252525;
+		}
 	.detItem .desc{
 		height: 500px;
 	    width: 40%;
