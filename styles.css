@@ -700,7 +700,7 @@ footer{
 			}
 			.whiteBangles img{
 				width: 100%;
-			    z-index: 5;
+			    z-index: 0;
 			    position: relative;
 			}
 		.whiteBangles .item .description{
@@ -752,6 +752,9 @@ footer{
 		}
 		.down .description{
 			padding-top:50px;
+		}
+		.down img{
+			top:20px;
 		}
 		.test4{
 		    background-image: url(test4.png);
