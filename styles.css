@@ -656,7 +656,10 @@ footer{
 	background-color: #0D0D0D;
 	position: relative;
 }
-	.delimiter{
+	.whiteBangles .triangle{
+		top:480px;
+	}
+	.whiteBangles .delimiter{
 		height: 10px;
 		position: absolute;
 		top:500px;
@@ -664,7 +667,7 @@ footer{
 		background-repeat: no-repeat;
 		background-size:cover;
 	}
-	.item{
+	.whiteBangles .item{
 		height:500px;
 		width:100%;
 		float:left;
