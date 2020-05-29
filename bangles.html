@@ -50,5 +50,35 @@
 			<div class="banner banner4"></div>
 			<div class="banner banner5"></div>
 		</div>
+		<div class="aboutCategory">
+			<div class="creating">
+				<span class="hammer"></span>
+				<div class="info howToCreate"></div>
+			</div>
+			<div class="size">
+				<span class="divider"></span>
+				<div class="info howToSize"></div>
+			</div>
+			<button type="button" class="collapsible">Open Collapsible</button>
+			<div class="uncollapse content">hi</div>
+		</div>
+
+
+
+<script type="text/javascript">
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}</script>
 </body>
 </html>
