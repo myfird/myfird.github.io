@@ -636,19 +636,25 @@ footer{
     position: absolute;
     top: 200px;
     left: 695px;
+    opacity:0.8;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #ccc;
+  opacity:1;
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .uncollapse {
   padding: 0 18px;
   display: none;
+  height: 350px;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: dimgray;
+}
+.arrowBackground{
+	height:60px;
+	background:black;
 }
 
 .whiteBangles{
