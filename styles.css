@@ -731,6 +731,7 @@ footer{
 		}
 		.down .descElem{
 			float: right;
+			text-align: right;
 		}
 		.down h3{
 			float:right;
