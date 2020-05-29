@@ -696,14 +696,18 @@ footer{
 		}
 			.whiteBangles .item .description span, 
 			.whiteBangles .item .description h3 {
-			    color: #D2D2D2;
+			}
+			.whiteBangles .descElem{
+				font-size:35px;
+				display:block;
+				color: #D2D2D2;
 			    text-shadow: 0px -1px 4px #D2D2D2;
-			    display:block;
 			    width: 280px;
 			}
 			.whiteBangles .item .description h3 {
-				font-size: 25px;
+				font-size: 45px;
 				color: #8FBB94;
+				text-shadow: 0px -1px 4px #8FBB94;
 			}
 		.whiteBangles .description .name{
 			height: 500px;
@@ -720,7 +724,6 @@ footer{
 		}
 		.whiteBangles .data .price span{
 			display: inline;
-			font-size:35px;
 		}
 
 
