@@ -673,6 +673,9 @@ footer{
 		background-repeat: no-repeat;
 		background-size:cover;
 	}
+	.upper{
+		top:-50px;
+	}
 	.whiteBangles .item{
 		height:500px;
 		width:100%;
