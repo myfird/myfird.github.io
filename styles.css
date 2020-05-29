@@ -668,12 +668,6 @@ footer{
 		background-repeat: no-repeat;
 		background-size:cover;
 	}
-	.whiteBangles .up .photo{
-		float:left;
-	}
-	.whiteBangles .down .photo{
-		float:right;
-	}
 	.whiteBangles .item{
 		height:500px;
 		width:100%;
@@ -685,6 +679,13 @@ footer{
 			.whiteBangles .item .photo{
 			    width: 50%;
 			    height: 500px;
+			    overflow: hidden;
+			}
+			.whiteBangles .up .photo{
+				float:left;
+			}
+			.whiteBangles .down .photo{
+				float:right;
 			}
 			.whiteBangles img{
 				width: 100%;
