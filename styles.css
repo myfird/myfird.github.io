@@ -765,6 +765,7 @@ footer{
 	position: relative;
     height: 750px;
 	clear: both;
+	z-index: 1;
 }
 	.detItem .photo{
 	    width: 60%;
