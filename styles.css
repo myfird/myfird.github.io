@@ -773,7 +773,8 @@ footer{
 	    float: left;
 	}
 		.detItem img{
-			width:80%;
+			width:600px;
+			height:500px;
 			border: solid 20px #252525;
 		}
 	.detItem .desc{
