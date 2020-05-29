@@ -524,19 +524,19 @@ footer{
 		position: relative;
 		}
 .banner1{
-	background-image: url(/banglespage/banner1.png);
+	background-image: url(items/banglespage/banner1.png);
 }
 .banner2{
-	background-image: url(/banglespage/banner2.png);
+	background-image: url(items/banglespage/banner2.png);
 }
 .banner3{
-	background-image: url(/banglespage/banner3.png);
+	background-image: url(items/banglespage/banner3.png);
 }
 .banner4{
-	background-image: url(/banglespage/banner4.png);
+	background-image: url(items/banglespage/banner4.png);
 }
 .banner5{
-	background-image: url(/banglespage/banner5.png);
+	background-image: url(items/banglespage/banner5.png);
 }
 		.banner span.name{
 			font-size: 55px;
