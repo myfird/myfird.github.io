@@ -695,10 +695,14 @@ footer{
 			height:500px;
 		}
 			.whiteBangles .item .description span, 
-			.whiteBangles .item .description h3, {
+			.whiteBangles .item .description h3 {
 				font-size: 22px;
 			    color: #D2D2D2;
 			    text-shadow: 0px -1px 4px #D2D2D2;
+			}
+			.whiteBangles .item .description h3 {
+				font-size: 25px;
+				color: #8FBB94;
 			}
 		.whiteBangles .description .name{
 			height: 500px;
