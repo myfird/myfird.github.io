@@ -722,11 +722,17 @@ footer{
 			text-shadow: 0px -1px 4px #D2D2D2;
 			width: 280px;
 			}
+		.up .next{
+			float: left;
+		}
 		.down .descElem{
 			float: right;
 		}
 		.down h3{
 			float:right;
+		}
+		.down .next{
+			float: right;
 		}
 
 
