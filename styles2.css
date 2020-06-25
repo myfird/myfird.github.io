@@ -1,3 +1,16 @@
+@media only screen and (max-width: 360px) {
+body{
+	font-family: 'Cormorant Garamond', serif;
+	width:360px;
+	background:black;
+	margin:0 auto;
+}
+.background-blur{
+	
+	}
+
+}
+
 html{
 	scroll-behavior: smooth;
 }
@@ -843,5 +856,18 @@ footer{
 			position: absolute;
 		    top: 65px;
 		}
+
+@media only screen and (max-width: 360px) {
+body{
+	font-family: 'Cormorant Garamond', serif;
+	width:360px;
+	background:black;
+	margin:0 auto;
+}
+.background-blur{
+	
+	}
+
+}
 
 
