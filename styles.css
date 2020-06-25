@@ -4,13 +4,6 @@ html{
 a{
 	text-decoration: none;
 }
-@media only screen and (max-width: 600px) {
-	body {
-		background-color:pink;
-	}
-
-
-}
 body{
 	font-family: 'Cormorant Garamond', serif;
 	width:1440px;
@@ -851,5 +844,17 @@ footer{
 		    top: 65px;
 		}
 
+@media only screen and (max-width: 360px) {
+body{
+	font-family: 'Cormorant Garamond', serif;
+	width:360px;
+	background:black;
+	margin:0 auto;
+}
+.background-blur{
+	
+	}
+
+}
 
 
