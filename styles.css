@@ -41,7 +41,12 @@ header{
 		    text-shadow: 0px -1px 4px #8FBB94;
 		}
 	.sandwich{
-
+		    background-image: url(sandwich.png);
+		    position: relative;
+		    background-repeat: no-repeat;
+		    float:left;
+			width: 26.04px;
+			height: 20.46px;
 	}
 	.contacts{
 		width: 30%;
