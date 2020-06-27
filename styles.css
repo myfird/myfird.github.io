@@ -112,8 +112,8 @@ main{
 			}
 			.main-slide span.name{
 				position:absolute;
-				top:220px;
-				font-size: 20px;
+				top: 210px;
+			    font-size: 24px;
 				color:#8FBB94;
 				margin: 0 89px;
 			}
@@ -129,6 +129,7 @@ main{
 				border: 2px solid rgba(86, 86, 86, 0.8);
 				border-radius: 5px;
 				float: left;
+				margin: 0 0 0 26px;
 			}
 	.fade {
 	  -webkit-animation-name: fade;
