@@ -23,6 +23,7 @@ header{
 		display:block;
 		width: 116.48px;
 		height: 45.12px;
+		float: left;
 	}
 		#logo img{
 			margin:30px 0 0 40px;
@@ -36,7 +37,7 @@ header{
 		.gallery span{
 			padding: 50px 0 0 0;
 			color: rgb(210,210,210);
-			font-size: 45px;
+			font-size: 16px;
 			display: block;
 			text-shadow: 0px -1px 4px #8FBB94;
 		}
