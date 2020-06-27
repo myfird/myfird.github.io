@@ -83,10 +83,9 @@ header{
 		}
 		.icons-arrow{
 			background-image:url(icons-arrow.png);
-			width:30px;
-			height:7px;
-			position: absolute;
-			
+		    position: absolute;
+		    top: 35px;
+		    left: 70px;	
 		}
 	nav{
 		display:none;
