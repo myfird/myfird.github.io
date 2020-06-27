@@ -119,6 +119,15 @@ main{
 		.add-slides{
 			height: 70px;
 		}
+			.add-slides div{
+				width: 80px;
+				height: 62px;
+				background: url(slider/page2/item-1.png);
+				background-repeat: no-repeat;
+		    	background-size: cover;
+				border: 2px solid rgba(86, 86, 86, 0.8);
+				border-radius: 5px;
+			}
 	.fade {
 	  -webkit-animation-name: fade;
 	  -webkit-animation-duration: 2s;
