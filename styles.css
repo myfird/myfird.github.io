@@ -120,19 +120,8 @@ main{
 		.add-slides{
 			height: 70px;
 		}
-			.add-slides div{
-			    width: 90px;
-			    height: 70px;
-			    background-repeat: no-repeat;
-			    border: 2px solid rgba(86, 86, 86, 0.8);
-			    border-radius: 5px;
-			    float: left;
-			    margin: 0 0 0 19px;
-			}
 			.slide-1{
 				background: url(slider/page2/item-1.jpg);
-				background-position-x: 10px;
-				background-size: cover;
 			}
 			.slide-2{
 				background: url(slider/page1/item-1.png);
@@ -141,7 +130,17 @@ main{
 			}
 			.slide-3{
 				background: url(slider/page2/item-1.jpg);
-				background-size: cover;
+			}
+			.add-slides div{
+			    width: 90px;
+			    height: 70px;
+			    background-repeat: no-repeat;
+			    border: 2px solid rgba(86, 86, 86, 0.8);
+			    border-radius: 5px;
+			    float: left;
+			    margin: 0 0 0 19px;
+			    background-position: 10px 2px;
+			    background-size: contain;
 			}
 	.fade {
 	  -webkit-animation-name: fade;
