@@ -123,7 +123,7 @@ main{
 			.slide-1{
 				background: url(slider/page2/item-1.jpg);
 			}
-			.slide-2{
+			.add-slides div.slide-2{
 				background: url(slider/page1/item-1.png);
 				box-shadow: 0px 4px 20px #8FBB94;
 				background-size: cover;
