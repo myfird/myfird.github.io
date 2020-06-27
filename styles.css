@@ -101,8 +101,11 @@ main{
 	}
 		.main-slide{
 			height: 220px;
-			background-image: url(slider/page1/item-1.png);
-			background-repeat: no-repeat;
+		    background-image: url(slider/page1/item-1.png);
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    z-index: -999;
+		    position: relative;
 		}
 		.add-slides{
 			height: 70px;
