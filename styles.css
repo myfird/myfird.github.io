@@ -128,11 +128,11 @@ main{
 			    border-radius: 5px;
 			    float: left;
 			    margin: 0 0 0 19px;
-			    background-position: 10px 2px;
-			    background-size: contain;
 			}
 			.add-slides div.slide-1{
 				background: url(slider/page2/item-1.jpg);
+			    background-position: 10px 2px;
+			    background-size: contain;
 			}
 			.add-slides div.slide-2{
 				background: url(slider/page1/item-1.png);
@@ -142,6 +142,7 @@ main{
 			}
 			.add-slides div.slide-3{
 				background: url(item-1.jpg);
+				background-size: contain;
 			}
 	.fade {
 	  -webkit-animation-name: fade;
