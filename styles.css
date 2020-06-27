@@ -107,10 +107,14 @@ main{
 		    z-index: -999;
 		    position: relative;
 		}
+			span.desc{
+				display: none;
+			}
 			.main-slide span.name{
 				position:absolute;
-				top:250px;
-				color:white;
+				top:220px;
+				font-size: 20px;
+				color:#8FBB94;
 			}
 		.add-slides{
 			height: 70px;
