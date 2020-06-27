@@ -132,7 +132,8 @@ main{
 			    background-size: contain;
 			}
 			.slide-1{
-				background: url(slider/page2/item-1.jpg);
+				ackground: url(slider/page2/item-1.jpg);
+				background: url(slider/page3/item-1.jpg);
 			}
 			.add-slides div.slide-2{
 				background: url(slider/page1/item-1.png);
