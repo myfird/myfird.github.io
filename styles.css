@@ -26,7 +26,9 @@ header{
 		float: left;
 	}
 		#logo img{
-			margin:30px 0 0 40px;
+			width: 115px;
+			height: 45px;
+			margin:10px 0 0 10px;
 		}
 	.gallery{
 	    height: 140px;
@@ -41,8 +43,8 @@ header{
 			display: block;
 			text-shadow: 0px -1px 4px #8FBB94;
 		}
-	.sandwitch{
-		
+	.sandwich{
+
 	}
 	.contacts{
 		width: 30%;
