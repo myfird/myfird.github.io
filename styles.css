@@ -139,7 +139,7 @@ main{
 				background: url(slider/page1/item-1.png);
 			}
 			.slide-3{
-				background: url(slider/page3/item-1.jpg);
+				background-image: url(slider/page3/item-1.jpg);
 			}
 	.fade {
 	  -webkit-animation-name: fade;
