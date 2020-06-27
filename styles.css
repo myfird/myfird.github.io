@@ -138,7 +138,7 @@ main{
 				border: 2px solid #8FBB94;
 			}
 			.slide-3{
-				background-image: url(slider/page3/item-1.jpg);
+				background: url(slider/page2/item-1.jpg);
 			}
 	.fade {
 	  -webkit-animation-name: fade;
