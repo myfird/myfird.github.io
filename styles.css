@@ -96,9 +96,15 @@ header{
 main{
 }
 	.slider{
-		height: 344px;
+		height: 350px;
 		width:100%;
 	}
+		.main-slide{
+			height: 220px;
+		}
+		.add-slides{
+			height: 70px;
+		}
 	.fade {
 	  -webkit-animation-name: fade;
 	  -webkit-animation-duration: 2s;
@@ -118,70 +124,7 @@ main{
 	.triangle{
 		display:none;
 	}
-	.slide{
-		background-repeat: no-repeat;
-		display: none;
-	}
-		.mySlides{
-			height: 600px;
-		}
-		.slide-1a{
-		    background-image: url(items/slide-1a.png);
-		}
-		.slide-1b{
-		    background-image: url(items/slide-1b.png);
-		}
-		.slide-1c{
-		    background-image: url(items/slide-1c.png);
-		}
-		.slide-2a{
-		    background-image: url(items/slide-2a.png);
-		}
-		.slide-2b{
-		    background-image: url(items/slide-2b.png);
-		}
-		.slide-2c{
-		    background-image: url(items/slide-2c.png);
-		}
-		.slide-3a{
-		    background-image: url(items/slide-3a.png);
-		}
-		.slide-3b{
-		    background-image: url(items/slide-3b.png);
-		}
-		.slide-3c{
-		    background-image: url(items/slide-3c.png);
-		}
-		.mySlides span.name{
-			font-size: 55px;
-			color: #8FBB94;
-			text-shadow: 0px -1px 4px #8FBB94;
-			left: 158px;
-			top: 226px;
-			position: relative;
-		}
-		.mySlides span.desc{
-			font-size: 25px;
-		    color: #D2D2D2;
-		    text-shadow: 0px -1px 4px #D2D2D2;
-		    left: -255px;
-		    top: 276px;
-		    position: relative;
-		}
-		.slide-2{
-		    margin-top: -105px;
-		    width: 703px;
-		    height: 429px;
-		    float: left;
-		}
-		.slide-3{
-			height: 400px;
-		    top: 523px;
-		    width: 750px;
-		    right: 1px;
-		    position: absolute;
-		    float: right;
-		}
+
 }
 /*
 	.categories{
