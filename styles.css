@@ -121,17 +121,17 @@ main{
 			height: 70px;
 		}
 			.add-slides div{
-				width: 80px;
-				height: 62px;
-				background: url(slider/page2/item-1.jpg);
-				background-repeat: no-repeat;
-		    	background-size: cover;
-				border: 2px solid rgba(86, 86, 86, 0.8);
-				border-radius: 5px;
-				float: left;
-				margin: 0 0 0 26px;
-				background-size: contain;
-    			background-position-x: 10px;
+			    width: 90px;
+			    height: 70px;
+			    background: url(slider/page2/item-1.jpg);
+			    background-repeat: no-repeat;
+			    background-size: cover;
+			    border: 2px solid rgba(86, 86, 86, 0.8);
+			    border-radius: 5px;
+			    float: left;
+			    margin: 0 0 0 19px;
+			    background-size: contain;
+			    background-position-x: 10px;
 			}
 			.slide-1{
 				background: url(slider/page2/item-1.jpg);
