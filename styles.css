@@ -100,7 +100,7 @@ main{
 		width:100%;
 	}
 		.main-slide{
-			height: 240px;
+			height: 260px;
 		    background-image: url(slider/page1/item-1.png);
 		    background-repeat: no-repeat;
 		    background-size: cover;
@@ -112,7 +112,7 @@ main{
 			}
 			.main-slide span.name{
 				position:absolute;
-				top: 210px;
+				top: 215px;
 			    font-size: 24px;
 				color:#8FBB94;
 				margin: 0 89px;
