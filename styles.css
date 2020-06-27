@@ -50,22 +50,24 @@ header{
 	    margin: 25px 0 0 10px;
 	}
 	.icons{
-	    position: absolute;
+		position: absolute;
 	    height: 30px;
 	    top: 75px;
-	    width: 120px;
-	    margin: 0 108px;
-	    width: 144px;
-	    height: 32px;
+	    margin: 0 88px;
+	    width: 184px;
+	    height: 39px;
+	    border: 1px solid #8FBB94;
+	    border-top: black;
+	    border-radius: 0 0 5px 5px;
 		}
 		.icons a{
-		    width: 25px;
-		    height: 25px;
+		    width: 30px;
+		    height: 30px;
 		    background-size: contain;
 		    display: block;
 		    float: left;
 		    background-repeat: no-repeat;
-		    margin: 4px 5px;
+		    margin: 5px 8px;
 		}
 		.insta{
 		    background-image: url(insta.png);
