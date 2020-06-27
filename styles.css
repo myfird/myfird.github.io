@@ -131,7 +131,7 @@ main{
 			    background-position: 10px 2px;
 			    background-size: contain;
 			}
-			.slide-1{
+			.add-slides div.slide-1{
 				background: url(slider/page2/item-1.jpg);
 			}
 			.add-slides div.slide-2{
@@ -140,7 +140,7 @@ main{
 				background-size: cover;
 				border: 2px solid rgba(143,187,148,0.5);
 			}
-			.slide-3{
+			.add-slides div.slide-3{
 				background: url(item-1.jpg);
 			}
 	.fade {
