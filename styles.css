@@ -49,40 +49,26 @@ header{
 	    height: 35.46px;
 	    margin: 25px 0 0 10px;
 	}
-	.contacts{
-		width: 30%;
-	    float: left;
-	    position: relative;
-	    top: 40px;
-	    right: 40px;
+	.icons{
+	    position: absolute;
+	    height: 30px;
+	    width: 100%;
+	    top: 75px;
 		}
-		.contacts a.tel{
-	background-image: url(social.png); /* shows image */
-	height: 30px;
-	width: 80px;
-
-    /* Hide the text. */
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-
-		}
-		.social-icons{
-		    height: 30px;
-		    width: 80px;
-		    float: right;
-		    background-image: url(social.png);
-		    top: -15px;
-		    position: relative;
+		.icons a{
+		    width:25px;
+		    height:25px;
+		    background-size:cover;
 		    background-repeat: no-repeat;
 		}
-		.social-icons a{
-			background-repeat: no-repeat;
-			display: block;
-			height: 35px;
-		    width: 150px;
-		    float: left;
-		    background-size: contain;
+		.insta{
+		    background-image: url(insta.png);
+		}
+		.whatsapp{
+			background-image: url(whatsapp.png);
+		}
+		.tel{
+			background-image: url(phone.png);
 		}
 	nav{
 		float:left;
