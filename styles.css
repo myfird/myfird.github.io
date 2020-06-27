@@ -138,7 +138,7 @@ main{
 				background: url(slider/page1/item-1.png);
 				box-shadow: 0px 4px 20px #8FBB94;
 				background-size: cover;
-				border: 2px solid rgba(143,187,148.0.5);
+				border: 2px solid rgba(143,187,148,0.5);
 			}
 			.slide-3{
 				background: url(slider/page2/item-1.jpg);
