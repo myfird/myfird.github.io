@@ -128,8 +128,6 @@ main{
 			    border-radius: 5px;
 			    float: left;
 			    margin: 0 0 0 19px;
-			    background-size: cover;
-			    background-position-x: 10px;
 			}
 			.slide-1{
 				background: url(slider/page2/item-1.jpg);
