@@ -123,7 +123,7 @@ main{
 			.add-slides div{
 				width: 80px;
 				height: 62px;
-				background: url(slider/page2/item-1.png);
+				background: url(slider/page2/item-1.jpg);
 				background-repeat: no-repeat;
 		    	background-size: cover;
 				border: 2px solid rgba(86, 86, 86, 0.8);
