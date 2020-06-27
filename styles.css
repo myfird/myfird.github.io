@@ -71,8 +71,7 @@ header{
 			background-image: url(phone.png);
 		}
 	nav{
-		float:left;
-		width:100%;
+		display:none;
 		}
 		nav a{
 			display: inline-block;
