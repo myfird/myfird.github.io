@@ -107,6 +107,11 @@ main{
 		    z-index: -999;
 		    position: relative;
 		}
+			.main-slide span.name{
+				position:absolute;
+				top:250px;
+				color:white;
+			}
 		.add-slides{
 			height: 70px;
 		}
