@@ -94,42 +94,9 @@ header{
 
 main{
 }
-	.test{
-		background-image: url(test.png);
-		background-repeat: no-repeat;
-	    height: 600px;
-	    width: 1440px;
-	    position: absolute;
-	    z-index: -1;
-	}
-	.test2{
-	    background-image: url(test2.png);
-	    background-repeat: no-repeat;
-	    margin-top: 495px;
-	    width: 703px;
-	    height: 429px;
-	    float: left;
-	    z-index: -1;
-	    position: absolute;
-	}
-	.test3{
-		background-image: url(test3.png);
-		background-repeat: no-repeat;
-		height: 400px;
-		top: 523px;
-		width: 750px;
-		right: 1px;
-		position: absolute;
-		float: right;
-		z-index: -1;
-	}
 	.slider{
-		height: 926px;
-		position:relative;
-		top: -1px;
-    	z-index: 9;
-    	max-width: 1440px;
-    	box-sizing: border-box;
+		height: 344px;
+		width:100%;
 	}
 	.fade {
 	  -webkit-animation-name: fade;
@@ -148,26 +115,7 @@ main{
 	}
 
 	.triangle{
-		position: absolute;
-		background-repeat: no-repeat;
-	    background-size: contain;
-	    top: 250px;
-	    width: 60px;
-	    height: 60px;
-	    opacity: 0.3;
-	    cursor: pointer;
-	    z-index: 5;
-	}
-	.triangle:hover{
-		opacity: 0.8;
-	}
-    .triangle-left {
-    	left: 40px;
-	    background-image: url(arrow-left.png);
-    }
-	.triangle-right{
-	    background-image: url(arrow-right.png);
-	    right: 30px;
+		display:none;
 	}
 	.slide{
 		background-repeat: no-repeat;
