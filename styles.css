@@ -101,6 +101,8 @@ main{
 	}
 		.main-slide{
 			height: 220px;
+			background-image: url(slider/page1/item-1.png);
+			background-repeat: no-repeat;
 		}
 		.add-slides{
 			height: 70px;
