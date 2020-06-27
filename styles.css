@@ -52,14 +52,20 @@ header{
 	.icons{
 	    position: absolute;
 	    height: 30px;
-	    width: 100%;
 	    top: 75px;
+	    width: 120px;
+	    margin: 0 108px;
+	    width: 144px;
+	    height: 32px;
 		}
 		.icons a{
-		    width:25px;
-		    height:25px;
-		    background-size:cover;
+		    width: 25px;
+		    height: 25px;
+		    background-size: contain;
+		    display: block;
+		    float: left;
 		    background-repeat: no-repeat;
+		    margin: 4px 5px;
 		}
 		.insta{
 		    background-image: url(insta.png);
