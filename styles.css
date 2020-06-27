@@ -191,9 +191,12 @@ main{
 			height: 65px;
 			box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
 			border-radius: 6px;
+			float:left;
 			}
 		.category img{
 			z-index: 10;
+			width: 65px;
+			height: 65px;
 		}
 		/*
 		.category:hover .blur{
