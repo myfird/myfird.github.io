@@ -130,6 +130,8 @@ main{
 				border-radius: 5px;
 				float: left;
 				margin: 0 0 0 26px;
+				background-size: contain;
+    			background-position-x: 10px;
 			}
 	.fade {
 	  -webkit-animation-name: fade;
