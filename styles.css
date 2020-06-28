@@ -272,14 +272,14 @@ main{
 			}
 
 		.package div.img-container{
-			width:100%;
+			width:80%;
+			margin:5% 10%;
 			position: relative;
 			z-index: 10;
+			background-image: url(photos/package.png);
+			background-repeat: no-repeat;
+			background-size:cover;
 		}
-			.package img{
-			    width: 320px;
-    			margin: 0 auto;
-			}
 	/*
 	.delivery{
 		padding: 50px 0;
