@@ -478,16 +478,6 @@
 			display: none;
 		}
 		.icons{
-			position: absolute;
-		    height: 30px;
-		    top: 36px;
-		    margin: 0 88px;
-		    width: 184px;
-		    height: 39px;
-		    border: 1px solid #8FBB94;
-		    border-top: black;
-		    z-index: -10;
-		    border-radius: 0 0 5px 5px;
 			}
 			.icons a{
 			    width: 30px;
