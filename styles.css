@@ -393,9 +393,19 @@ footer{
 
 	}
 		.footer-contacts a{
-			display: block;
-			color: #D2D2D2;
-			text-shadow: 0px 0px 2px #FFFFFF;
+		    width: 30px;
+		    height: 30px;
+		    background-size: contain;
+		    display: block;
+		    float: left;
+		    background-repeat: no-repeat;
+		    margin: 5px 8px;
+		}
+		.footer-contacts .insta{
+		    background-image: url(icons/insta.png);
+		}
+		.footer-contacts .whatsapp{
+			background-image: url(icons/whatsapp.png);
 		}
 /* bangles page */
 /*
