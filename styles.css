@@ -548,7 +548,7 @@ body{
 			box-shadow: 0px 22px 15px -18px #8FBB94;
 		}
 		.slider{
-			height: 350px;
+    		height: 825px;
 			width:100%;
 			position: relative;
 		}
