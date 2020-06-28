@@ -185,7 +185,7 @@ main{
 		#categories span{
 			display: none;
 		}
-		span.header{
+		#categories span.header{
 		    display: block;
 		    font-size: 25px;
 		    color: #8FBB94;
@@ -240,6 +240,15 @@ main{
 			padding: 0 2%;
 			position: relative;
 		}
+		.package span.header{
+		    display: block;
+		    font-size: 25px;
+		    color: #8FBB94;
+		    z-index: 10;
+    		text-shadow: 1px 1px 4px #8FBB94;
+		    position: relative;
+		    text-align: center;
+			}
 			.package span.text{
 				font-size: 16px;
 				color: #D2D2D2;
