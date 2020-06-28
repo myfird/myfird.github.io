@@ -197,7 +197,25 @@ main{
 			background-image: url(/categories/bangle.png);
 		}
 		#categories .bracelet{
-			background-image: url(/categories/bangle.png);
+			background-image: url(/categories/bracelet.png);
+		}
+		#categories .beads{
+			background-image: url(/categories/beads.png);
+		}
+		#categories .prayerbeads{
+			background-image: url(/categories/prayerbeads.png);
+		}
+		#categories .earrings{
+			background-image: url(/categories/earrings.png);
+		}
+		#categories .pendant{
+			background-image: url(/categories/pendant.png);
+		}
+		#categories .souvenir{
+			background-image: url(/categories/souvenir.png);
+		}
+		#categories .interior{
+			background-image: url(/categories/interior.png);
 		}
 		/*
 		.category:hover .blur{
