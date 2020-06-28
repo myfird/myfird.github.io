@@ -654,6 +654,12 @@ body{
 			    position: relative;
 			    text-align: center;
 			}
+		#categories a:nth-child(odd){
+			margin:0 30px 30px 160px;
+		}
+		#categories a:nth-child(even){
+			margin:0 30px 30px 10px;
+		}
 			.category {
 			    width: 476px;
 			    height: 222px;
@@ -662,6 +668,7 @@ body{
 				background-size: contain;
     			z-index: 10;
 				}
+
 				.category span{
 				    position: relative;
 				    top: 120px;
