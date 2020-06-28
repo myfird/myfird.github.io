@@ -167,7 +167,7 @@ main{
 	}
 
 	#background{
-	    height: 800px;
+	    height: 1200px;
 	    width: 100%;
 	    z-index: 1;
 	    float: left;
@@ -285,7 +285,9 @@ main{
 			background-size:cover;
 		}
 	.delivery{
-		width:100%;
+	    width: 100%;
+	    position: relative;
+	    z-index: 10;
 	}
 		.delivery span.header{
 		    display: block;
