@@ -461,25 +461,25 @@ body{
 	    z-index: 10;
 		}
 		#logo{
-			position: absolute;
-			width: 116.48px;
-			height: 45.12px;
-			left: 11.25px;
-			top: 8.94px;
+			display:block;
+			height: 140px;
+			width:30%;
+			float: left;
 		}
 			#logo img{
 				margin:30px 0 0 40px;
 			}
 		.gallery{
-			position: absolute;
-			width: 75px;
-			height: 12px;
-			left: 215px;
-			top: 22px;
+		    height: 140px;
+		    width: 40%;
+		    float: left;
+		    text-align: center;
 		}
 			.gallery span{
-				color: #D2D2D2;
-				font-size: 16px;
+				padding: 50px 0 0 0;
+				color: rgb(210,210,210);
+				font-size: 45px;
+				display: block;
 				text-shadow: 0px -1px 4px #8FBB94;
 			}
 		.sandwich{
