@@ -274,6 +274,7 @@ main{
 
 		.package div.img-container{
 			width:80%;
+			height: 200px;
 			margin:5% 10%;
 			position: relative;
 			z-index: 10;
