@@ -558,10 +558,12 @@ body{
 	.add-item-back-1{
 		background-image: url(slider/page1/addItem-1.png);
 		height: 382px;
+		width: 625px;
 	}
 	.add-item-back-2{
 		background-image: url(slider/page1/addItem-1.png);
 		height: 357px;
+		width: 665px;
 	}
 
 
