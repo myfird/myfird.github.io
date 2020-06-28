@@ -500,8 +500,9 @@ body{
 		    width: 300px;
 		    position: relative;
 		    float: right;
-		    top: -190px;
+		    top: -170px;
 		    z-index: 10;
+		    padding: 30px;
 			}
 			.icons a{
 				display: inline-block;
