@@ -1,422 +1,422 @@
 @media only screen and (max-width: 600px) {
-html{
-	scroll-behavior: smooth;
-}
-a{
-	text-decoration: none;
-}
-span.header{
-	display: block;
-	font-size: 25px;
-	color: #8FBB94;
-	z-index: 10;
-	text-shadow: 1px 1px 4px #8FBB94;
-	position: relative;
-	text-align: center;
+	html{
+		scroll-behavior: smooth;
 	}
-body{
-	font-family: 'Cormorant Garamond', serif;
-	width:100%;
-	background:black;
-	margin:0 auto;
+	a{
+		text-decoration: none;
 	}
-
-header{
-	height:75px;
-	background:rgb(13,13,13);
-	box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
-	position: relative;
-    z-index: 10;
-	}
-	#logo{
-		display:block;
-		float: left;
-		height:75px;
-	}
-		#logo img{
-			width: 115px;
-			height: 45px;
-			margin:15px;
+	span.header{
+		display: block;
+		font-size: 25px;
+		color: #8FBB94;
+		z-index: 10;
+		text-shadow: 1px 1px 4px #8FBB94;
+		position: relative;
+		text-align: center;
 		}
-	.gallery{
-    width: 40%;
-    float: left;
-    text-align: center;
-	}
-		.gallery span{
-		    padding: 25px 0 0 0;
-		    color: rgb(210,210,210);
-		    font-size: 24px;
-		    display: block;
-		    text-shadow: 0px -1px 4px #8FBB94;
-		}
-	.sandwich{
-	    background-image: url(icons/sandwich.png);
-	    background-repeat: no-repeat;
-	    float: left;
-	    width: 30px;
-	    background-size: contain;
-	    height: 30px;
-	    margin: 28px 0 0 10px;
-	}
-	.icons{
-		position: absolute;
-	    height: 30px;
-	    top: 36px;
-	    margin: 0 88px;
-	    width: 184px;
-	    height: 39px;
-	    border: 1px solid #8FBB94;
-	    border-top: black;
-	    z-index: -10;
-	    border-radius: 0 0 5px 5px;
-		}
-		.icons a{
-		    width: 30px;
-		    height: 30px;
-		    background-size: contain;
-		    display: block;
-		    float: left;
-		    background-repeat: no-repeat;
-		    margin: 5px 8px;
-		}
-		.icons .insta{
-		    background-image: url(icons/insta.png);
-		}
-		.icons .whatsapp{
-			background-image: url(icons/whatsapp.png);
-		}
-		.icons .tel{
-			background-image: url(icons/phone.png);
-			text-indent: 100%;
-    		white-space: nowrap;
-    		overflow: hidden;
-		}
-		.icons .icons-arrow{
-			background-image:url(icons/icons-arrow.png);
-		    position: absolute;
-		    top: 35px;
-		    left: 70px;	
-		}
-	nav{
-		display:none;
-		}
-
-main{
-	}
-	.slider{
-		height: 350px;
+	body{
+		font-family: 'Cormorant Garamond', serif;
 		width:100%;
-	}
-		.main-slide{
-			height: 260px;
-		    background-image: url(slider/page2/item-1.png);
-		    background-repeat: no-repeat;
-		    background-size: cover;
-		    z-index: -999;
-		    position: relative;
+		background:black;
+		margin:0 auto;
 		}
-			span.desc{
+
+	header{
+		height:75px;
+		background:rgb(13,13,13);
+		box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+		position: relative;
+	    z-index: 10;
+		}
+		#logo{
+			display:block;
+			float: left;
+			height:75px;
+		}
+			#logo img{
+				width: 115px;
+				height: 45px;
+				margin:15px;
+			}
+		.gallery{
+	    width: 40%;
+	    float: left;
+	    text-align: center;
+		}
+			.gallery span{
+			    padding: 25px 0 0 0;
+			    color: rgb(210,210,210);
+			    font-size: 24px;
+			    display: block;
+			    text-shadow: 0px -1px 4px #8FBB94;
+			}
+		.sandwich{
+		    background-image: url(icons/sandwich.png);
+		    background-repeat: no-repeat;
+		    float: left;
+		    width: 30px;
+		    background-size: contain;
+		    height: 30px;
+		    margin: 28px 0 0 10px;
+		}
+		.icons{
+			position: absolute;
+		    height: 30px;
+		    top: 36px;
+		    margin: 0 88px;
+		    width: 184px;
+		    height: 39px;
+		    border: 1px solid #8FBB94;
+		    border-top: black;
+		    z-index: -10;
+		    border-radius: 0 0 5px 5px;
+			}
+			.icons a{
+			    width: 30px;
+			    height: 30px;
+			    background-size: contain;
+			    display: block;
+			    float: left;
+			    background-repeat: no-repeat;
+			    margin: 5px 8px;
+			}
+			.icons .insta{
+			    background-image: url(icons/insta.png);
+			}
+			.icons .whatsapp{
+				background-image: url(icons/whatsapp.png);
+			}
+			.icons .tel{
+				background-image: url(icons/phone.png);
+				text-indent: 100%;
+	    		white-space: nowrap;
+	    		overflow: hidden;
+			}
+			.icons .icons-arrow{
+				background-image:url(icons/icons-arrow.png);
+			    position: absolute;
+			    top: 35px;
+			    left: 70px;	
+			}
+		nav{
+			display:none;
+			}
+
+	main{
+		}
+		.slider{
+			height: 350px;
+			width:100%;
+		}
+			.main-slide{
+				height: 260px;
+			    background-image: url(slider/page2/item-1.png);
+			    background-repeat: no-repeat;
+			    background-size: cover;
+			    z-index: -999;
+			    position: relative;
+			}
+				span.desc{
+					display: none;
+				}
+				.main-slide span.name{
+					position:absolute;
+					top: 215px;
+				    font-size: 24px;
+					color:#8FBB94;
+					margin: 0 89px;
+				}
+			.add-slides{
+				height: 75px;
+			}
+				.add-slides div{
+				    width: 90px;
+				    height: 70px;
+				    background-repeat: no-repeat;
+	    			border: 2px solid rgba(86, 86, 86, 0.2);
+				    border-radius: 5px;
+				    float: left;
+				    margin: 0 0 0 19px;
+				}
+				.add-slides div.slide-1{
+					background: url(slider/page1/item-1.png);
+				    background-position: 10px 2px;
+				    background-size: contain;
+				}
+				.add-slides div.slide-2{
+					background: url(slider/page2/item-1.png);
+					box-shadow: 0px 4px 20px #8FBB94;
+					background-size: cover;
+					border: 2px solid rgba(143,187,148,0.5);
+					background-position-y: 5px;
+				}
+				.add-slides div.slide-3{
+					background: url(slider/page3/item-1.png);
+					background-size: contain;
+					background-position-y: -2px;
+				}
+		.fade {
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 2s;
+		  animation-name: fade;
+		  animation-duration: 2s;
+		}
+
+		@-webkit-keyframes fade {
+		  from {opacity: .2;}
+		  to {opacity: 1;}
+		}
+		@keyframes fade {
+		  from {opacity: .2;}
+		  to {opacity: 1;}
+		}
+
+		.triangle{
+			display:none;
+		}
+
+		#background{
+	    	height: 1450px;
+		    width: 100%;
+		    z-index: 1;
+		    float: left;
+		    opacity: 0.6;
+		    position: absolute;
+		    background-image: url(/patterns/pattern2.png);
+		    background-repeat: repeat;
+			}
+		#categories{
+			width:100%;
+			height:220px;
+			position: relative;
+	    	padding-top: 10px;
+		}
+			#categories span{
 				display: none;
 			}
-			.main-slide span.name{
-				position:absolute;
-				top: 215px;
-			    font-size: 24px;
-				color:#8FBB94;
-				margin: 0 89px;
-			}
-		.add-slides{
-			height: 75px;
-		}
-			.add-slides div{
-			    width: 90px;
-			    height: 70px;
-			    background-repeat: no-repeat;
-    			border: 2px solid rgba(86, 86, 86, 0.2);
-			    border-radius: 5px;
-			    float: left;
-			    margin: 0 0 0 19px;
-			}
-			.add-slides div.slide-1{
-				background: url(slider/page1/item-1.png);
-			    background-position: 10px 2px;
-			    background-size: contain;
-			}
-			.add-slides div.slide-2{
-				background: url(slider/page2/item-1.png);
-				box-shadow: 0px 4px 20px #8FBB94;
-				background-size: cover;
-				border: 2px solid rgba(143,187,148,0.5);
-				background-position-y: 5px;
-			}
-			.add-slides div.slide-3{
-				background: url(slider/page3/item-1.png);
-				background-size: contain;
-				background-position-y: -2px;
-			}
-	.fade {
-	  -webkit-animation-name: fade;
-	  -webkit-animation-duration: 2s;
-	  animation-name: fade;
-	  animation-duration: 2s;
-	}
-
-	@-webkit-keyframes fade {
-	  from {opacity: .2;}
-	  to {opacity: 1;}
-	}
-	@keyframes fade {
-	  from {opacity: .2;}
-	  to {opacity: 1;}
-	}
-
-	.triangle{
-		display:none;
-	}
-
-	#background{
-    	height: 1450px;
-	    width: 100%;
-	    z-index: 1;
-	    float: left;
-	    opacity: 0.6;
-	    position: absolute;
-	    background-image: url(/patterns/pattern2.png);
-	    background-repeat: repeat;
-		}
-	#categories{
-		width:100%;
-		height:220px;
-		position: relative;
-    	padding-top: 10px;
-	}
-		#categories span{
-			display: none;
-		}
-		#categories span.header{
-		    display: block;
-		    font-size: 25px;
-		    color: #8FBB94;
-		    z-index: 10;
-    		text-shadow: 1px 1px 4px #8FBB94;
-		    position: relative;
-		    text-align: center;
-		}
-		.category {
-		    margin: 6px 8px;
-		    width: 73px;
-		    height: 73px;
-		    box-shadow: 0px 4px 10px #8FBB94;
-		    border-radius: 6px;
-		    float: left;
-		    background-repeat: no-repeat;
-		    background-size: contain;
-		    z-index: 10;
-		    position: relative;
-			}
-		#categories .bangle{
-			background-image: url(/categories/bangle.png);
-		}
-		#categories .bracelet{
-			background-image: url(/categories/bracelet.png);
-		}
-		#categories .beads{
-			background-image: url(/categories/beads.png);
-		}
-		#categories .prayerbeads{
-			background-image: url(/categories/prayerbeads.png);
-		}
-		#categories .earrings{
-			background-image: url(/categories/earrings.png);
-		}
-		#categories .pendant{
-			background-image: url(/categories/pendant.png);
-		}
-		#categories .souvenir{
-			background-image: url(/categories/souvenir.png);
-		}
-		#categories .interior{
-			background-image: url(/categories/interior.png);
-		}
-	.package{
-	    width: 100%;
-	    padding-bottom: 20px;
-	    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.65);
-	}
-		.package div.desc{
-			padding: 0 2%;
-			position: relative;
-		}
-		.package span.header{
-		    display: block;
-		    font-size: 25px;
-		    color: #8FBB94;
-		    z-index: 10;
-    		text-shadow: 1px 1px 4px #8FBB94;
-		    position: relative;
-		    text-align: center;
-			}
-			.package span.text{
-				font-size: 18px;
-				color: #D2D2D2;
-				text-shadow: 0px -1px 4px #D2D2D2;
+			#categories span.header{
 			    display: block;
-		   		z-index: 10;
-		    	position: relative;
-		    	margin:0 5%;
+			    font-size: 25px;
+			    color: #8FBB94;
+			    z-index: 10;
+	    		text-shadow: 1px 1px 4px #8FBB94;
+			    position: relative;
+			    text-align: center;
 			}
-			span.next{
-			    background: #0D0D0D;
+			.category {
+			    margin: 6px 8px;
+			    width: 73px;
+			    height: 73px;
 			    box-shadow: 0px 4px 10px #8FBB94;
 			    border-radius: 6px;
-			    height: 35px;
-			    font-size: 20px;
-			    color: #8FBB94;
-			    text-shadow: 1px 1px 4px #8FBB94;
-			    display: block;
-			    margin: 5% 33%;
-			    width: 30%;
-			    text-align: center;
-			    padding: 8px 8px 0;
+			    float: left;
+			    background-repeat: no-repeat;
+			    background-size: contain;
 			    z-index: 10;
 			    position: relative;
+				}
+			#categories .bangle{
+				background-image: url(/categories/bangle.png);
 			}
-		.package div.img-container{
-			width:80%;
-			height: 200px;
-			margin:5% 10%;
-			position: relative;
-			z-index: 10;
-			background-image: url(photos/package.png);
-			background-repeat: no-repeat;
-			background-size:cover;
+			#categories .bracelet{
+				background-image: url(/categories/bracelet.png);
+			}
+			#categories .beads{
+				background-image: url(/categories/beads.png);
+			}
+			#categories .prayerbeads{
+				background-image: url(/categories/prayerbeads.png);
+			}
+			#categories .earrings{
+				background-image: url(/categories/earrings.png);
+			}
+			#categories .pendant{
+				background-image: url(/categories/pendant.png);
+			}
+			#categories .souvenir{
+				background-image: url(/categories/souvenir.png);
+			}
+			#categories .interior{
+				background-image: url(/categories/interior.png);
+			}
+		.package{
+		    width: 100%;
+		    padding-bottom: 20px;
+		    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.65);
 		}
-	.delivery{
-	    width: 100%;
+			.package div.desc{
+				padding: 0 2%;
+				position: relative;
+			}
+			.package span.header{
+			    display: block;
+			    font-size: 25px;
+			    color: #8FBB94;
+			    z-index: 10;
+	    		text-shadow: 1px 1px 4px #8FBB94;
+			    position: relative;
+			    text-align: center;
+				}
+				.package span.text{
+					font-size: 18px;
+					color: #D2D2D2;
+					text-shadow: 0px -1px 4px #D2D2D2;
+				    display: block;
+			   		z-index: 10;
+			    	position: relative;
+			    	margin:0 5%;
+				}
+				span.next{
+				    background: #0D0D0D;
+				    box-shadow: 0px 4px 10px #8FBB94;
+				    border-radius: 6px;
+				    height: 35px;
+				    font-size: 20px;
+				    color: #8FBB94;
+				    text-shadow: 1px 1px 4px #8FBB94;
+				    display: block;
+				    margin: 5% 33%;
+				    width: 30%;
+				    text-align: center;
+				    padding: 8px 8px 0;
+				    z-index: 10;
+				    position: relative;
+				}
+			.package div.img-container{
+				width:80%;
+				height: 200px;
+				margin:5% 10%;
+				position: relative;
+				z-index: 10;
+				background-image: url(photos/package.png);
+				background-repeat: no-repeat;
+				background-size:cover;
+			}
+		.delivery{
+		    width: 100%;
+		    position: relative;
+		    z-index: 10;
+		}
+			.delivery span.header{
+			    display: block;
+			    font-size: 25px;
+			    color: #8FBB94;
+			    z-index: 10;
+	    		text-shadow: 1px 1px 4px #8FBB94;
+			    position: relative;
+			    text-align: center;
+			}
+			.delivery div.map{
+			    width: 100%;
+			    height: 200px;
+			    margin: 0 auto;
+			    background-image: url(photos/map.png);
+			    background-repeat: no-repeat;
+			    background-size: contain;
+			}
+			.delivery div.city{
+				position:absolute;
+				cursor: pointer;
+			}
+			.delivery div.city span{
+				font-size: 20px;
+				color: #FFFFFF;
+			}
+				.delivery .moscow span{
+				    position: relative;
+					top: 90px;
+				    left: 65px;
+				}
+				.delivery .moscow .circle-big{
+					top: 90px;
+				    left: 55px;
+				}
+				.delivery .uu span{
+				    position: relative;
+				    top: 165px;
+				    left: 230px;
+				}
+				.delivery .uu .circle-big{
+				    top: 165px;
+				    left: 220px;
+				}
+
+			.delivery div.map .circle-big{
+			    width: 8px;
+			    height: 8px;
+			    display: block;
+			    position: relative;
+			    background: #8FBB94;
+			    border-radius: 50%;
+			}
+			.delivery div.map .circle-small{
+			    width: 4px;
+			    height: 4px;
+			    position: absolute;
+			    top: 2px;
+			    left: 2px;
+			    display: block;
+			    background: rgb(44,44,44);
+			    border-radius: 50%;
+			}
+	footer{
 	    position: relative;
 	    z-index: 10;
-	}
-		.delivery span.header{
-		    display: block;
-		    font-size: 25px;
-		    color: #8FBB94;
-		    z-index: 10;
-    		text-shadow: 1px 1px 4px #8FBB94;
-		    position: relative;
-		    text-align: center;
+	    padding: 130px 0 50px;
 		}
-		.delivery div.map{
-		    width: 100%;
-		    height: 200px;
-		    margin: 0 auto;
-		    background-image: url(photos/map.png);
-		    background-repeat: no-repeat;
-		    background-size: contain;
+		footer .header{
+			margin:10px 0;
 		}
-		.delivery div.city{
-			position:absolute;
-			cursor: pointer;
+		footer div.logo{
+			position: absolute;
+			width: 195.29px;
+			height: 75.88px;
+			left: 100px;
+			top: 24px;
 		}
-		.delivery div.city span{
-			font-size: 20px;
-			color: #FFFFFF;
+		footer .line{
+			position: absolute;
+			width: 340px;
+			height: 11px;
+			left: 10px;
+			top: 115px;
+			background: radial-gradient(50% 50% at 50% 50%, rgba(143, 187, 148, 0.62) 0%, rgba(143, 187, 148, 0) 100%);
 		}
-			.delivery .moscow span{
-			    position: relative;
-				top: 90px;
-			    left: 65px;
+		footer .footer-nav{
+			padding: 0 5%;
+		}
+			.footer-nav a{
+				display: inline-block;
+			    font-size: 16px;
+			    margin: 12px;
+			    color: #D2D2D2;
+			    text-shadow: 0px 0px 2px #FFFFFF;
 			}
-			.delivery .moscow .circle-big{
-				top: 90px;
-			    left: 55px;
-			}
-			.delivery .uu span{
-			    position: relative;
-			    top: 165px;
-			    left: 230px;
-			}
-			.delivery .uu .circle-big{
-			    top: 165px;
-			    left: 220px;
-			}
+		footer .footer-contacts{
+			padding: 0 5%;
+		}
 
-		.delivery div.map .circle-big{
-		    width: 8px;
-		    height: 8px;
-		    display: block;
-		    position: relative;
-		    background: #8FBB94;
-		    border-radius: 50%;
-		}
-		.delivery div.map .circle-small{
-		    width: 4px;
-		    height: 4px;
-		    position: absolute;
-		    top: 2px;
-		    left: 2px;
-		    display: block;
-		    background: rgb(44,44,44);
-		    border-radius: 50%;
-		}
-footer{
-    position: relative;
-    z-index: 10;
-    padding: 130px 0 50px;
-	}
-	footer .header{
-		margin:10px 0;
-	}
-	footer div.logo{
-		position: absolute;
-		width: 195.29px;
-		height: 75.88px;
-		left: 100px;
-		top: 24px;
-	}
-	footer .line{
-		position: absolute;
-		width: 340px;
-		height: 11px;
-		left: 10px;
-		top: 115px;
-		background: radial-gradient(50% 50% at 50% 50%, rgba(143, 187, 148, 0.62) 0%, rgba(143, 187, 148, 0) 100%);
-	}
-	footer .footer-nav{
-		padding: 0 5%;
-	}
-		.footer-nav a{
-			display: inline-block;
-		    font-size: 16px;
-		    margin: 12px;
-		    color: #D2D2D2;
-		    text-shadow: 0px 0px 2px #FFFFFF;
-		}
-	footer .footer-contacts{
-		padding: 0 5%;
-	}
-
-		.footer-contacts a{
-			display: inline-block;
-		    font-size: 16px;
-    		margin: 12px 0 12px 12px;
-		    color: #D2D2D2;
-		    text-shadow: 0px 0px 2px #FFFFFF;
-		}
-		.footer-contacts .social{
-		    width: 30px;
-		    height: 30px;
-		    background-size: contain;
-		    float: right;
-		    background-repeat: no-repeat;
-		    margin: -14px 12px;
-		}
-		.footer-contacts .insta{
-		    background-image: url(icons/insta.png);
-		}
-		.footer-contacts .whatsapp{
-			background-image: url(icons/whatsapp.png);
-		}
+			.footer-contacts a{
+				display: inline-block;
+			    font-size: 16px;
+	    		margin: 12px 0 12px 12px;
+			    color: #D2D2D2;
+			    text-shadow: 0px 0px 2px #FFFFFF;
+			}
+			.footer-contacts .social{
+			    width: 30px;
+			    height: 30px;
+			    background-size: contain;
+			    float: right;
+			    background-repeat: no-repeat;
+			    margin: -14px 12px;
+			}
+			.footer-contacts .insta{
+			    background-image: url(icons/insta.png);
+			}
+			.footer-contacts .whatsapp{
+				background-image: url(icons/whatsapp.png);
+			}
 }
 
 
