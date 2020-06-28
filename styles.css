@@ -112,7 +112,7 @@
 				height: 260px;
 			    background-image: url(slider/page2/item-1.png);
 			    background-repeat: no-repeat;
-			    background-size: cover;
+			    background-size: contain;
 			    z-index: -999;
 			    position: relative;
 			}
