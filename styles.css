@@ -449,7 +449,7 @@ body{
     width: 1280px;
     z-index: -5;
     position: absolute;
-    ackground: #8FBB94;
+    background: #8FBB94;
     filter: blur(51px);
 	}
 
