@@ -610,10 +610,10 @@ body{
 		}
 	    .triangle-left {
 	    	left: 40px;
-		    background-image: url(arrow-left.png);
+		    background-image: url(icons/arrow-left.png);
 	    }
 		.triangle-right{
-		    background-image: url(arrow-right.png);
+		    background-image: url(icons/arrow-right.png);
 		    right: 30px;
 		}
 		.fade {
