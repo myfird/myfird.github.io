@@ -661,6 +661,8 @@ body{
 			    height: 222px;
 				display: inline-grid;
 				position:relative;
+				background-size: contain;
+    			z-index: 10;
 				}
 				.category span{
 					position: relative;
