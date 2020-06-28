@@ -185,6 +185,12 @@ main{
 		#categories span{
 			display: none;
 		}
+		#categories span.header{
+			display: block;
+			font-size: 25px;
+			color: #8FBB94;
+			text-shadow: 0px 0px 2px #8FBB94;
+		}
 		.category {
 		    margin: 6px 8px;
 		    width: 73px;
@@ -235,15 +241,14 @@ main{
 		}
 			.package span.header{
 				color:rgb(210,210,210);
-				font-size: 45px;
+				font-size: 20px;
 				color: #8FBB94;
 				text-shadow: 0px -1px 4px #8FBB94;
 			    display: block;
 			    margin: 50px 0 0 70px;
 			}
 			.package span.text{
-				font-size: 25px;
-				line-height: 183%;
+				font-size: 16px;
 				color: #D2D2D2;
 				text-shadow: 0px -1px 4px #D2D2D2;
 			    display: block;
