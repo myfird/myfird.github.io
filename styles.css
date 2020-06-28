@@ -283,24 +283,23 @@ main{
 			background-repeat: no-repeat;
 			background-size:cover;
 		}
-	/*
 	.delivery{
-		padding: 50px 0;
-		background:black;
+		width:100%;
 	}
-		.delivery div.header{
-			font-size: 45px;
-			color: #8FBB94;
-			text-shadow: 0px -1px 4px #8FBB94;
-			text-align: center;
-    		margin-top: 50px;
+		.delivery span.header{
+		    display: block;
+		    font-size: 25px;
+		    color: #8FBB94;
+		    z-index: 10;
+    		text-shadow: 1px 1px 4px #8FBB94;
+		    position: relative;
+		    text-align: center;
 		}
 		.delivery div.map{
-			width: 1000px;
+			width: 90%;
     		margin: 0 auto;
 		}
 		.delivery img{
-			height:560px;
 		}
 		.delivery div.city{
 			position:absolute;
