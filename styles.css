@@ -645,6 +645,7 @@ body{
 		    width: 100%;
 		    position: relative;
 		    padding: 10px 160px;
+		    background: black;
 		}
 			#categories span.header{
 			    display: block;
