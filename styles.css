@@ -577,7 +577,28 @@ body{
 			    top: 465px;
 			    left: 615px;
 			}
-
+		.triangle{
+			position: absolute;
+			background-repeat: no-repeat;
+		    background-size: contain;
+		    top: 250px;
+		    width: 60px;
+		    height: 60px;
+		    opacity: 0.3;
+		    cursor: pointer;
+		    z-index: 5;
+		}
+		.triangle:hover{
+			opacity: 0.8;
+		}
+	    .triangle-left {
+	    	left: 40px;
+		    background-image: url(arrow-left.png);
+	    }
+		.triangle-right{
+		    background-image: url(arrow-right.png);
+		    right: 30px;
+		}
 		.fade {
 		  -webkit-animation-name: fade;
 		  -webkit-animation-duration: 2s;
