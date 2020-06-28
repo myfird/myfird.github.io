@@ -142,7 +142,7 @@ main{
 				background-position-y: 5px;
 			}
 			.add-slides div.slide-3{
-				background: url(item-1.jpg);
+				background: url(slider/page3/item-1.jpg);
 				background-size: contain;
 				background-position-y: -2px;
 			}
