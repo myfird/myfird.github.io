@@ -259,23 +259,16 @@ main{
 			}
 			span.next{
 			    background: #0D0D0D;
-			    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
-			    border-radius: 5px;
+		    	box-shadow: 0px 4px 10px #8FBB94;
+		    	border-radius: 6px;
 			    height: 35px;
 			    font-size: 20px;
 			    color: #8FBB94;
-			    text-shadow: 0px 0px 2px #8FBB94;
+				text-shadow: 0px 0px 2px #8FBB94;
 			    display: block;
-			    margin-top: 47px;
 			    float: right;
 			    text-align: center;
 			    padding: 8px 0 0 0;
-			}
-			.next:hover .blur{
-			    filter: blur(10px);
-			    border-radius: 5px;
-			    background: #8FBB94;
-			    z-index: -5;
 			}
 
 		.package div.img-container{
