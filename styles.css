@@ -392,7 +392,11 @@ footer{
 	footer .footer-contacts{
 
 	}
-
+		.footer-contacts a{
+			display: block;
+			color: #D2D2D2;
+			text-shadow: 0px 0px 2px #FFFFFF;
+		}
 /* bangles page */
 /*
 .banner-container{
