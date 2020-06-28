@@ -130,7 +130,7 @@ main{
 			    margin: 0 0 0 19px;
 			}
 			.add-slides div.slide-1{
-				background: url(slider/page2/item-1.jpg);
+				background: url(slider/page2/item-1.png);
 			    background-position: 10px 2px;
 			    background-size: contain;
 			}
@@ -142,7 +142,7 @@ main{
 				background-position-y: 5px;
 			}
 			.add-slides div.slide-3{
-				background: url(slider/page3/item-1.jpg);
+				background: url(slider/page3/item-1.png);
 				background-size: contain;
 				background-position-y: -2px;
 			}
