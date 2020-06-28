@@ -299,6 +299,9 @@ main{
 		.delivery div.map{
 			width: 90%;
     		margin: 0 auto;
+    		background-image: url(photos/map.png);
+    		background-repeat: no-repeat;
+    		background-size: cover;
 		}
 		.delivery img{
 		}
