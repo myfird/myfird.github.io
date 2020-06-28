@@ -385,9 +385,11 @@ footer{
 	footer .footer-nav{
 	}
 		.footer-nav a{
-			display: block;
-			color: #D2D2D2;
-			text-shadow: 0px 0px 2px #FFFFFF;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 8px 5px;
+		    color: #D2D2D2;
+		    text-shadow: 0px 0px 2px #FFFFFF;
 		}
 	footer .footer-contacts{
 
