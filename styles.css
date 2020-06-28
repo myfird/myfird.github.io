@@ -170,7 +170,7 @@ main{
 		width:100%;
 		height:320px;
 		position: relative;
-		margin-top:10px;
+    	padding-top: 10px;
 	}
 		#categories .background{
 			height: 320px;
