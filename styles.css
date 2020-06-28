@@ -59,7 +59,7 @@ header{
 	    height: 30px;
 	    margin: 28px 0 0 10px;
 	}
-	.icons{
+	header .icons{
 		position: absolute;
 	    height: 30px;
 	    top: 36px;
@@ -71,7 +71,7 @@ header{
 	    z-index: -10;
 	    border-radius: 0 0 5px 5px;
 		}
-		.icons a{
+		header .icons a{
 		    width: 30px;
 		    height: 30px;
 		    background-size: contain;
@@ -80,19 +80,19 @@ header{
 		    background-repeat: no-repeat;
 		    margin: 5px 8px;
 		}
-		.insta{
+		header .insta{
 		    background-image: url(icons/insta.png);
 		}
-		.whatsapp{
+		header .whatsapp{
 			background-image: url(icons/whatsapp.png);
 		}
-		.tel{
+		header .tel{
 			background-image: url(icons/phone.png);
 			text-indent: 100%;
     		white-space: nowrap;
     		overflow: hidden;
 		}
-		.icons-arrow{
+		header .icons-arrow{
 			background-image:url(icons/icons-arrow.png);
 		    position: absolute;
 		    top: 35px;
