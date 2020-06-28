@@ -403,12 +403,12 @@ footer{
 		    text-shadow: 0px 0px 2px #FFFFFF;
 		}
 		.footer-contacts .social{
-		    width: 30px;
+			width: 30px;
 		    height: 30px;
 		    background-size: contain;
-		    display: block;
+		    float: right;
 		    background-repeat: no-repeat;
-		    margin: 5px 8px;
+		    margin: -6px 12px;
 		}
 		.footer-contacts .insta{
 		    background-image: url(icons/insta.png);
