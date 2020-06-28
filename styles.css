@@ -185,7 +185,7 @@ main{
 		#categories span{
 			display: none;
 		}
-		#categories span.header{
+		span.header{
 		    display: block;
 		    font-size: 25px;
 		    color: #8FBB94;
