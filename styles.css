@@ -547,6 +547,17 @@ body{
 			box-shadow: 0px 15px 10px -10px #8FBB94;
 			box-shadow: 0px 22px 15px -18px #8FBB94;
 		}
+	.desktop{
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.main-item-back{
+		background-image: url(slider/page1/mainItem-1.png);
+	}
+
+
+
+
 }
 
 
