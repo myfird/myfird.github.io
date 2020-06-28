@@ -192,8 +192,6 @@ main{
     float: left;
     background-repeat: no-repeat;
     background-size: contain;
-    background-size: 125%;
-    background-position: center;
 			}
 		#categories .bangle{
 			background-image: url(/categories/bangle.png);
