@@ -170,7 +170,7 @@ main{
 		width:100%;
 		height:320px;
 	}
-		.categories .background{
+		#categories .background{
 			height: 320px;
 		    width: 100%;
 		    z-index: 1;
@@ -180,7 +180,7 @@ main{
 		    background-image: url(pattern2.png);
 		    background-repeat: repeat;
 		}
-		.categories span{
+		#categories span{
 			display: none;
 		}
 		.category {
@@ -193,16 +193,11 @@ main{
 			background-repeat: no-repeat;
 			background-size: cover;
 			}
-		.categories .bangle{
+		#categories .bangle{
 			background-image: url(/categories/bangle.png);
 		}
-		.categories .bracelet{
+		#categories .bracelet{
 			background-image: url(/categories/bangle.png);
-		}
-		.category img{
-			z-index: 10;
-			width: 65px;
-			height: 65px;
 		}
 		/*
 		.category:hover .blur{
