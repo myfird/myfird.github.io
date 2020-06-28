@@ -658,13 +658,8 @@ body{
 			.category {
 			    width: 476px;
 			    height: 222px;
-			    box-shadow: 0px 4px 10px #8FBB94;
-			    border-radius: 6px;
-			    float: left;
-			    background-repeat: no-repeat;
-			    background-size: contain;
-			    z-index: 10;
-			    position: relative;
+				display: inline-grid;
+				position:relative;
 				}
 			#categories .bangle{
 				background-image: url(/categories/bangleDesk.png);
