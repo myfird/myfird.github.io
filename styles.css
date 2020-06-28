@@ -395,7 +395,13 @@ footer{
 	footer .footer-contacts{
 
 	}
+
 		.footer-contacts a{
+			display: inline-block;
+		    font-size: 16px;
+		    margin: 12px;
+		    color: #D2D2D2;
+		    text-shadow: 0px 0px 2px #FFFFFF;
 		    width: 30px;
 		    height: 30px;
 		    background-size: contain;
