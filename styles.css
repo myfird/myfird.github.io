@@ -642,9 +642,9 @@ body{
 		    background-repeat: repeat;
 			}
 		#categories{
-			width:100%;
-			position: relative;
-	    	padding-top: 10px;
+		    width: 100%;
+		    position: relative;
+		    padding: 10px 160px;
 		}
 			#categories span.header{
 			    display: block;
