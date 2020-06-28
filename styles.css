@@ -176,7 +176,7 @@ main{
 	}
 
 	#background{
-	    height: 1500px;
+    	height: 1450px;
 	    width: 100%;
 	    z-index: 1;
 	    float: left;
