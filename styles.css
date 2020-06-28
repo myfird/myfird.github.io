@@ -471,16 +471,26 @@ body{
 			}
 		.gallery{
 		    height: 140px;
+		    font-size: 38px;
 		    width: 40%;
 		    float: left;
 		    text-align: center;
+		    position: relative;
 		}
 			.gallery span{
 				padding: 50px 0 0 0;
 				color: rgb(210,210,210);
-				font-size: 45px;
+				font-size: 38px;
 				display: block;
 				text-shadow: 0px -1px 4px #8FBB94;
+			}
+			.gallery .line{
+				position: absolute;
+				width: 340px;
+				height: 11px;
+				left: 10px;
+				top: 115px;
+				background: radial-gradient(50% 50% at 50% 50%, rgba(143, 187, 148, 0.62) 0%, rgba(143, 187, 148, 0) 100%);
 			}
 		.sandwich{
 			display: none;
