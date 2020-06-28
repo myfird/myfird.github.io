@@ -661,6 +661,16 @@ body{
 				display: inline-grid;
 				position:relative;
 				}
+				.category span{
+					position: relative;
+		    		top: -142px;
+		    		left: 50px;
+				    font-size: 35px;
+				    line-height: 42px;
+				    color: #8FBB94;
+				    text-shadow: 0px 1px 4px #8FBB94;
+				    z-index: 11;
+				}
 			#categories .bangle{
 				background-image: url(/categories/bangleDesk.png);
 			}
