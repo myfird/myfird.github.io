@@ -184,16 +184,16 @@ main{
 			display: none;
 		}
 		.category {
-		    margin: 0 7px;
-		    width: 73px;
-		    height: 73px;
-		    box-shadow: 0px 4px 10px #8FBB94;
-		    border-radius: 6px;
-		    float: left;
-		    background-repeat: no-repeat;
-		    background-size: contain;
-		    background-size: 120%;
-		    background-position: center;
+    margin: 10px 8px;
+    width: 73px;
+    height: 73px;
+    box-shadow: 0px 4px 10px #8FBB94;
+    border-radius: 6px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 125%;
+    background-position: center;
 			}
 		#categories .bangle{
 			background-image: url(/categories/bangle.png);
