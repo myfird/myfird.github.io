@@ -172,6 +172,7 @@ main{
 		z-index: 1;
 		top: 0;
 		opacity: 0.8;
+		background-position-x: -15px;
 		position: absolute;
 		background-image: url(/patterns/pattern2.png);
 		background-repeat: repeat;
