@@ -303,8 +303,6 @@ main{
     		background-repeat: no-repeat;
     		background-size: cover;
 		}
-		.delivery img{
-		}
 		.delivery div.city{
 			position:absolute;
 			cursor: pointer;
