@@ -186,10 +186,13 @@ main{
 			display: none;
 		}
 		#categories span.header{
-			display: block;
-			font-size: 25px;
-			color: #8FBB94;
-			text-shadow: 0px 0px 2px #8FBB94;
+		    display: block;
+		    font-size: 25px;
+		    color: #8FBB94;
+		    z-index: 10;
+		    text-shadow: 0px 0px 2px #8FBB94;
+		    position: relative;
+		    text-align: center;
 		}
 		.category {
 		    margin: 6px 8px;
