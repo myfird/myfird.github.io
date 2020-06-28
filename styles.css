@@ -642,7 +642,7 @@ body{
 			}
 		#categories{
 		    position: relative;
-		    padding: 10px 160px;
+		    padding: 10px 0px;
 		    background: black;
 		}
 			#categories span.header{
