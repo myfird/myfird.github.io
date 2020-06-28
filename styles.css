@@ -332,16 +332,16 @@ main{
 			}
 
 		.delivery div.map .circle-big{
-		    width: 13px;
-		    height: 13px;
+		    width: 8px;
+		    height: 8px;
 		    display: block;
 		    position: relative;
 		    background: #8FBB94;
 		    border-radius: 50%;
 		}
 		.delivery div.map .circle-small{
-		    width: 9px;
-		    height: 9px;
+		    width: 4px;
+		    height: 4px;
 		    position: absolute;
 		    top: 2px;
 		    left: 2px;
