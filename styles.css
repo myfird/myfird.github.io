@@ -438,12 +438,20 @@
 		position: relative;
 		text-align: center;
 		}
-	body{
-		font-family: 'Cormorant Garamond', serif;
-		width:1280px;
-		background:black;
-		margin:0 auto;
-		}
+body{
+	font-family: 'Cormorant Garamond', serif;
+	width:1440px;
+	background:black;
+	margin:0 auto;
+}
+.background-blur{
+    height: 4172px;
+    width: 1440px;
+    z-index: -5;
+    position: absolute;
+    background: #8FBB94;
+    filter: blur(51px);
+	}
 
 	header{
 		height:70px;
