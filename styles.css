@@ -314,21 +314,21 @@ main{
 		}
 			.delivery .moscow span{
 			    position: relative;
-			    top: 230px;
-			    left: 178px;
+				top: 90px;
+			    left: 65px;
 			}
 			.delivery .moscow .circle-big{
-			    top: 252px;
-			    left: 158px;
+				top: 90px;
+			    left: 55px;
 			}
 			.delivery .uu span{
 			    position: relative;
-			    top: 452px;
-			    left: 630px;
+			    top: 165px;
+			    left: 230px;
 			}
 			.delivery .uu .circle-big{
-			    top: 475px;
-			    left: 610px;
+			    top: 165px;
+			    left: 220px;
 			}
 
 		.delivery div.map .circle-big{
