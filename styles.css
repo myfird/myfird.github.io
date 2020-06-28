@@ -496,6 +496,12 @@ body{
 			display: none;
 		}
 		.icons{
+		    height: 140px;
+		    width: 300px;
+		    position: relative;
+		    float: right;
+		    top: -190px;
+		    z-index: 10;
 			}
 			.icons a{
 			    width: 30px;
