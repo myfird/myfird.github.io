@@ -193,10 +193,10 @@ main{
 			background-repeat: no-repeat;
 			background-size: cover;
 			}
-		.category .bangle{
+		.categories .bangle{
 			background-image: url(/categories/bangle.png);
 		}
-		.category .bracelet{
+		.categories .bracelet{
 			background-image: url(/categories/bangle.png);
 		}
 		.category img{
