@@ -312,13 +312,6 @@ main{
 			font-size: 25px;
 			color: #FFFFFF;
 		}
-		.delivery div.city:hover .circle-small{
-			background:white;
-		}
-		.delivery div.city:hover span{
-    		text-shadow: 0px -1px 4px #D2D2D2;
-		}
-
 			.delivery .moscow span{
 			    position: relative;
 			    top: 230px;
@@ -327,15 +320,6 @@ main{
 			.delivery .moscow .circle-big{
 			    top: 252px;
 			    left: 158px;
-			}
-			.delivery .spb span{
-			    position: relative;
-			    top: 158px;
-			    left: 190px;
-			}
-			.delivery .spb .circle-big{
-			    top: 180px;
-			    left: 170px;
 			}
 			.delivery .uu span{
 			    position: relative;
