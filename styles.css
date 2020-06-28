@@ -631,6 +631,69 @@ body{
 		  from {opacity: .2;}
 		  to {opacity: 1;}
 		}
+		#background{
+	    	height: 1450px;
+		    width: 100%;
+		    z-index: 1;
+		    float: left;
+		    opacity: 0.6;
+		    position: absolute;
+		    background-image: url(/patterns/pattern2.png);
+		    background-repeat: repeat;
+			}
+		#categories{
+			width:100%;
+			position: relative;
+	    	padding-top: 10px;
+		}
+			#categories span{
+			}
+			#categories span.header{
+			    display: block;
+			    font-size: 25px;
+			    color: #8FBB94;
+			    z-index: 10;
+	    		text-shadow: 1px 1px 4px #8FBB94;
+			    position: relative;
+			    text-align: center;
+			}
+			.category {
+			    width: 476px;
+			    height: 222px;
+			    box-shadow: 0px 4px 10px #8FBB94;
+			    border-radius: 6px;
+			    float: left;
+			    background-repeat: no-repeat;
+			    background-size: contain;
+			    z-index: 10;
+			    position: relative;
+				}
+			#categories .bangle{
+				background-image: url(/categories/bangleDesk.png);
+			}
+			#categories .bracelet{
+				background-image: url(/categories/braceletDesk.png);
+			}
+			#categories .beads{
+				background-image: url(/categories/beadsDesk.png);
+			}
+			#categories .prayerbeads{
+				background-image: url(/categories/prayerbeadsDesk.png);
+			}
+			#categories .earrings{
+				background-image: url(/categories/earringsDesk.png);
+			}
+			#categories .pendant{
+				background-image: url(/categories/pendantDesk.png);
+			}
+			#categories .souvenir{
+				background-image: url(/categories/souvenirDesk.png);
+			}
+			#categories .interior{
+				background-image: url(/categories/interiorDesk.png);
+			}
+
+
 
 
 }
