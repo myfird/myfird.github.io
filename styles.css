@@ -668,7 +668,9 @@ body{
 				background-size: contain;
     			z-index: 10;
 				}
-
+			.category:hover{
+				    box-shadow: 0px 4px 10px #8FBB94;
+			}
 				.category span{
 				    position: relative;
 				    top: 120px;
@@ -678,6 +680,9 @@ body{
 				    color: #8FBB94;
 				    text-shadow: 1px 1px 4px #8FBB94;
 				    z-index: 11;
+				}
+				.category:hover span{
+					text-shadow: 0px 1px 14px #8FBB94;
 				}
 			#categories .bangle{
 				background-image: url(/categories/bangleDesk.png);
