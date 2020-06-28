@@ -419,10 +419,114 @@
 			}
 }
 
-@media only screen and (min-width: 600px){
-	
-}
+@media only screen and (max-width: 1024px){
 
+}
+@media only screen and (min-width: 1024px){
+	html{
+		scroll-behavior: smooth;
+	}
+	a{
+		text-decoration: none;
+	}
+	span.header{
+		display: block;
+		font-size: 25px;
+		color: #8FBB94;
+		z-index: 10;
+		text-shadow: 1px 1px 4px #8FBB94;
+		position: relative;
+		text-align: center;
+		}
+	body{
+		font-family: 'Cormorant Garamond', serif;
+		width:100%;
+		background:black;
+		margin:0 auto;
+		}
+
+	header{
+		height:75px;
+		background:rgb(13,13,13);
+		box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+		position: relative;
+	    z-index: 10;
+		}
+		#logo{
+			display:block;
+			float: left;
+			height:75px;
+		}
+			#logo img{
+				width: 115px;
+				height: 45px;
+				margin:15px;
+			}
+		.gallery{
+	    width: 40%;
+	    float: left;
+	    text-align: center;
+		}
+			.gallery span{
+			    padding: 25px 0 0 0;
+			    color: rgb(210,210,210);
+			    font-size: 24px;
+			    display: block;
+			    text-shadow: 0px -1px 4px #8FBB94;
+			}
+		.sandwich{
+		    background-image: url(icons/sandwich.png);
+		    background-repeat: no-repeat;
+		    float: left;
+		    width: 30px;
+		    background-size: contain;
+		    height: 30px;
+		    margin: 28px 0 0 10px;
+		}
+		.icons{
+			position: absolute;
+		    height: 30px;
+		    top: 36px;
+		    margin: 0 88px;
+		    width: 184px;
+		    height: 39px;
+		    border: 1px solid #8FBB94;
+		    border-top: black;
+		    z-index: -10;
+		    border-radius: 0 0 5px 5px;
+			}
+			.icons a{
+			    width: 30px;
+			    height: 30px;
+			    background-size: contain;
+			    display: block;
+			    float: left;
+			    background-repeat: no-repeat;
+			    margin: 5px 8px;
+			}
+			.icons .insta{
+			    background-image: url(icons/insta.png);
+			}
+			.icons .whatsapp{
+				background-image: url(icons/whatsapp.png);
+			}
+			.icons .tel{
+				background-image: url(icons/phone.png);
+				text-indent: 100%;
+	    		white-space: nowrap;
+	    		overflow: hidden;
+			}
+			.icons .icons-arrow{
+				background-image:url(icons/icons-arrow.png);
+			    position: absolute;
+			    top: 35px;
+			    left: 70px;	
+			}
+		nav{
+			display:none;
+			}
+
+}
 
 
 /* bangles page */
