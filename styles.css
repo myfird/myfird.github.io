@@ -655,10 +655,10 @@ body{
 			    position: relative;
 			    text-align: center;
 			}
-		#categories a:nth-child(odd) .category{
+		#categories a:nth-child(even) .category{
 			margin:0 30px 30px 160px;
 		}
-		#categories a:nth-child(even) .category{
+		#categories a:nth-child(odd) .category{
 			margin:0 30px 30px 10px;
 		}
 			.category {
