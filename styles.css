@@ -128,10 +128,14 @@
 					top: 215px;
 				    font-size: 24px;
 					color:#8FBB94;
+					position: inherit;
 				}
 			.add-slides{
-				height: 75px;
-				margin: 10px 0;
+			    height: 75px;
+			    margin: 10px 0;
+			    display: flex;
+			    width: 100%;
+			    justify-content: center;
 				}
 				.add-slides div{
 				    width: 90px;
@@ -139,8 +143,7 @@
 				    background-repeat: no-repeat;
 	    			border: 2px solid rgba(86, 86, 86, 0.2);
 				    border-radius: 5px;
-				    float: left;
-				    margin: 0 0 0 19px;
+				    margin: 0 19px;
 				}
 				.add-slides div.slide-1{
 					background: url(slider/page1/item-1.png);
