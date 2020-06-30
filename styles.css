@@ -122,11 +122,12 @@
 					display: none;
 				}
 				.main-slide span.name{
-					position:absolute;
+					display: flex;
+					justify-content: center;
+					align-items: center;
 					top: 215px;
 				    font-size: 24px;
 					color:#8FBB94;
-					margin: 0 89px;
 				}
 			.add-slides{
 				height: 75px;
