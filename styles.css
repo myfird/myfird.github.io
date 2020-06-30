@@ -577,7 +577,10 @@ body{
 			    top: 463px;
 			    left: 612px;
 			}
-			.slider span.name{
+			.slider .description{
+
+			}
+				.slider .description span.name{
 				font-size: 55px;
 				color: #8FBB94;
 				text-shadow: 0px -1px 4px #8FBB94;
@@ -585,7 +588,7 @@ body{
 				top: 226px;
 				position: relative;
 			}
-			.slider span.desc{
+			.slider .description span.desc{
 				font-size: 25px;
 			    color: #D2D2D2;
 			    text-shadow: 0px -1px 4px #D2D2D2;
