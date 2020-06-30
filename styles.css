@@ -566,13 +566,13 @@ body{
 				position: absolute;
 			}
 			.main-item-back{
-			    background-image: url(slider/page2/mainItem-1.png);
+			    background-image: url(slider/page1/mainItem-1.png);
 			    height: 534px;
 			    width: 1280px;
 			    top: -2px;
 			}
 			.add-item-back-1{
-			    background-image: url(slider/page2/addItem-1.png);
+			    background-image: url(slider/page1/addItem-1.png);
 			    height: 382px;
 			    width: 625px;
 			    position: absolute;
