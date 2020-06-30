@@ -53,17 +53,17 @@
 		.sandwich{
 		    background-image: url(icons/sandwich.png);
 		    background-repeat: no-repeat;
-		    float: right;
+		    float: left;
 		    width: 30px;
 		    background-size: contain;
 		    height: 30px;
-    		margin: 28px 5% 0 10px;
+		    margin: 28px 0 0 10px;
 		}
 		.icons{
 			position: absolute;
 		    height: 30px;
 		    top: 36px;
-			margin: 0 110px;
+		    left: 32%;
 		    width: 184px;
 		    height: 39px;
 		    border: 1px solid #8FBB94;
@@ -110,14 +110,12 @@
 		}
 			.main-slide{
 				height: 260px;
-				background-image: url(slider/page2/item-1.png);
-				background-repeat: no-repeat;
-				background-size: contain;
-				background-position: center;
-				z-index: -999;
-				position: relative;
-				border-radius: 5px;
-				}
+			    background-image: url(slider/page2/item-1.png);
+			    background-repeat: no-repeat;
+			    background-size: contain;
+			    z-index: -999;
+			    position: relative;
+			}
 				span.desc{
 					display: none;
 				}
@@ -130,8 +128,7 @@
 				}
 			.add-slides{
 				height: 75px;
-				margin: 10px 0;
-				}
+			}
 				.add-slides div{
 				    width: 90px;
 				    height: 70px;
@@ -449,7 +446,7 @@ body{
 	margin:0 auto;
 }
 .background-blur{
-    height: 3150px;
+    height: 4172px;
     width: 1280px;
     z-index: -5;
     position: absolute;
