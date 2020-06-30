@@ -138,9 +138,7 @@
 
 	// Next/previous controls
 	function plusSlides(n) {
-		console.log(n)
 		slideIndex += n;
-		console.log(slideIndex)
 		if (slideIndex == 0){slideIndex = 3}
 		if (slideIndex == 4){slideIndex = 1}
 
@@ -154,7 +152,9 @@
 
 	function ChangeBackgroungImageOfTab(imagePrefix)
 	{
+		document.getElementsByClassName("main-item-back")[0].style.display = "none";
 		document.getElementsByClassName("main-item-back")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/mainItem-1.png)';
+		document.getElementsByClassName("main-item-back")[0].style.display = "block";
 		document.getElementsByClassName("add-item-back-1")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-1.png)';
 		document.getElementsByClassName("add-item-back-2")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-2.png)';
 	}
