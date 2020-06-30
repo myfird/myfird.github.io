@@ -141,10 +141,12 @@
 	var slideCount = 3;
 	var triangles = document.getElementsByClassName("triangle");
 
-	//var desc = document.getElementsByClassName("description")[0].children;
-	//for (i=0; i < desc.length; i++){
-	//	desc[i].style.display = "none";
-	//}
+	var desc = document.getElementsByClassName("description")[0].children;
+	for (i=0; i < desc.length; i++){
+		desc[i].style.display = "none";
+	}
+	document.getElementsByClassName("bangle-name")[0].style.display = "block";
+	document.getElementsByClassName("bangle-desc")[0].style.display = "block";
 
 	// Next/previous controls
 	function plusSlides(n) {
