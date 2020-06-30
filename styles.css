@@ -644,15 +644,6 @@ body{
 		    padding: 10px 0px;
 		    background: black;
 		}
-			#categories span.header{
-			    display: block;
-			    font-size: 25px;
-			    color: #8FBB94;
-			    z-index: 10;
-	    		text-shadow: 1px 1px 4px #8FBB94;
-			    position: relative;
-			    text-align: center;
-			}
 		#categories a:nth-child(even) .category{
 			margin:0 30px 30px 160px;
 		}
