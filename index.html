@@ -138,9 +138,11 @@
 
 	// Next/previous controls
 	function plusSlides(n) {
+		console.log(n)
 		slideIndex += n;
-		if (slideIndex = 0){slideIndex = 3}
-		if (slideIndex = 4){slideIndex = 1}
+		console.log(slideIndex)
+		if (slideIndex == 0){slideIndex = 3}
+		if (slideIndex == 4){slideIndex = 1}
 
 		ChangeBackgroungImageOfTab(slideIndex);
 	}
@@ -154,7 +156,7 @@
 	{
 		document.getElementsByClassName("main-item-back")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/mainItem-1.png)';
 		document.getElementsByClassName("add-item-back-1")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-1.png)';
-		document.getElementsByClassName("add-item-back-2")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-1.png)';
+		document.getElementsByClassName("add-item-back-2")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-2.png)';
 	}
 
 	function showSlides(n) {
