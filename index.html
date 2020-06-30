@@ -173,8 +173,8 @@
 		document.getElementsByClassName("add-item-back-1")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-1.png)';
 		document.getElementsByClassName("add-item-back-2")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-2.png)';
 
-		document.getElementsByClassName("slider")[0].style.display = "none";
-		document.getElementsByClassName("slider")[0].style.display = "block";
+		document.getElementsByClassName("slider")[0].className += " load";
+		
 		switch (imagePrefix) {
 		  case 1:
 		    document.getElementsByClassName("bangle-name")[0].style.display = "block";
