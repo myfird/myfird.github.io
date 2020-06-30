@@ -157,7 +157,7 @@
 
 	function ChangeBackgroungImageOfTab(imagePrefix)
 	{
-		var desc = document.getElementsByClassName("description").childNodes;
+		var desc = document.getElementsByClassName("description")[0].childNodes;
 		for (i=0; i < desc.length; i++){
 			desc[i].style.display = "none";
 			console.log(i)
