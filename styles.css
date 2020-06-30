@@ -147,15 +147,15 @@
 				}
 				.add-slides div.slide-1{
 					background: url(slider/page1/item-1.png);
-				    background-position: 10px 2px;
-				    background-size: contain;
+				    background-size: cover;
+				    background-repeat: no-repeat;
 				}
 				.add-slides div.slide-2{
-					background: url(slider/page2/item-1.png);
-					box-shadow: 0px 4px 20px #8FBB94;
-					background-size: cover;
-					border: 2px solid rgba(143,187,148,0.5);
-					background-position-y: 5px;
+				    background: url(slider/page2/item-1.png);
+				    box-shadow: 0px 4px 20px #8FBB94;
+				    background-size: 120%;
+				    border: 2px solid rgba(143,187,148,0.5);
+				    background-position: -7px 5px;
 				}
 				.add-slides div.slide-3{
 					background: url(slider/page3/item-1.png);
