@@ -131,3 +131,51 @@
 			<a href="" class="whatsapp social"></a>
 		</div>
 	</footer>
+<script>
+	var slideIndex = 1;
+	var slideCount = 3;
+	var triangles = document.getElementsByClassName("triangle");
+
+	// Next/previous controls
+	function plusSlides(n) {
+		slideIndex += n;
+		if (slideIndex = 0){slideIndex = 3}
+		if (slideIndex = 4){slideIndex = 1}
+
+		ChangeBackgroungImageOfTab(slideIndex);
+	}
+
+	// Thumbnail image controls
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function ChangeBackgroungImageOfTab(imagePrefix)
+	{
+		document.getElementsByClassName("main-item-back")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/mainItem-1.png)';
+		document.getElementsByClassName("add-item-back-1")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-1.png)';
+		document.getElementsByClassName("add-item-back-2")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-1.png)';
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var triangles = document.getElementsByClassName("triangle");
+	  var slides = document.getElementsByClassName("desktop");
+	  var mainSlide = document.getElementsByClassName("main-item-back");
+	  var addSlide1 = document.getElementsByClassName("add-item-back-1");
+	  var addSlide2 = document.getElementsByClassName("add-item-back-2");
+
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";
+	      slides2[i].style.display = "none";
+	      slides3[i].style.display = "none";
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  slides2[slideIndex-1].style.display = "block";
+	  slides3[slideIndex-1].style.display = "block";
+	}
+</script>
+</body>
+
