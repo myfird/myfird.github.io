@@ -46,7 +46,7 @@
 			<div class="triangle triangle-left fade" onclick="plusSlides(-1)"></div>
 			<div class="triangle triangle-right fade" onclick="plusSlides(+1)"></div>
 			<div class="main-slide">
-				<span class="name">Цельные браслеты</span>
+				<span class="name header">Цельные браслеты</span>
 				<span class="desc">Уникальные браслеты из нефрита любых оттенков</span>
 			</div>
 			<div class="add-slides">
@@ -152,9 +152,7 @@
 
 	function ChangeBackgroungImageOfTab(imagePrefix)
 	{
-		document.getElementsByClassName("main-item-back")[0].style.display = "none";
 		document.getElementsByClassName("main-item-back")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/mainItem-1.png)';
-		document.getElementsByClassName("main-item-back")[0].style.display = "block";
 		document.getElementsByClassName("add-item-back-1")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-1.png)';
 		document.getElementsByClassName("add-item-back-2")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-2.png)';
 	}
