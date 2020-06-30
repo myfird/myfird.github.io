@@ -157,6 +157,11 @@
 
 	function ChangeBackgroungImageOfTab(imagePrefix)
 	{
+		var desc = document.getElementsByClassName("description");
+		for (i=0; i < desc.length; i++){
+			desc[i].style.display = "none";
+		}
+
 		document.getElementsByClassName("main-item-back")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/mainItem-1.png)';
 		document.getElementsByClassName("add-item-back-1")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-1.png)';
 		document.getElementsByClassName("add-item-back-2")[0].style.backgroundImage = 'url(slider/page' + imagePrefix + '/addItem-2.png)';
