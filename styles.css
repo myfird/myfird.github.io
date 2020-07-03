@@ -762,9 +762,10 @@ body{
 		.delivery div.map{
 			width: 1000px;
     		margin: 0 auto;
-		}
-		.delivery img{
-			height:560px;
+			width: 100%;
+			background-image: url(photos/map.png);
+			background-repeat: no-repeat;
+			background-size: contain;
 		}
 		.delivery div.city{
 			position:absolute;
