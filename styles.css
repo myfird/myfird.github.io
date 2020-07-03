@@ -827,6 +827,9 @@ body{
 		    background: rgb(44,44,44);
 		    border-radius: 50%;
 		}
+footer {
+	background:black;
+}
 
 }
 
