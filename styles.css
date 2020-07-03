@@ -760,8 +760,8 @@ body{
     		margin-top: 50px;
 		}
 		.delivery div.map{
-			width: 1000px;
     		margin: 0 auto;
+			height: 700px;
 			width: 100%;
 			background-image: url(photos/map.png);
 			background-repeat: no-repeat;
