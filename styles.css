@@ -444,7 +444,7 @@ body{
 	margin:0 auto;
 }
 .background-blur{
-	height: 4242px;
+	height: 4200px;
     width: 1280px;
     z-index: -5;
     position: absolute;
@@ -636,10 +636,10 @@ body{
 		  to {opacity: 1;}
 		}
 		#background{
-    		height: 3240px;
+    		height: 3190px;
 		    width: 1280px;
 		    z-index: 1;
-		    opacity: 0.6;
+		    opacity: 0.4;
 		    position: absolute;
 		    background-image: url(/patterns/pattern2.png);
 		    background-repeat: repeat;
