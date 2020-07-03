@@ -828,6 +828,7 @@ footer {
 		width: 340px;
 		height: 11px;
 		background: radial-gradient(50% 50% at 50% 50%, rgba(143, 187, 148, 0.62) 0%, rgba(143, 187, 148, 0) 100%);
+		text-align: center;
 	}
 	footer .logo {
 		display: block;
