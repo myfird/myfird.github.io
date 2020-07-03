@@ -826,12 +826,12 @@ footer {
 	margin: 50px;
 }
 	footer .line{
-		width: 840px;
-		height: 14px;
-		background: radial-gradient(50% 50% at 50% 50%, rgba(143, 187, 148, 0.62) 0%, rgba(143, 187, 148, 0) 100%);
-		text-align: center;
-		position: relative;
-		z-index: 10;
+	    width: 840px;
+	    height: 14px;
+	    background: radial-gradient(50% 50% at 50% 50%, rgba(143, 187, 148, 0.62) 0%, rgba(143, 187, 148, 0) 100%);
+	    position: relative;
+	    z-index: 10;
+	    margin: 0 auto;
 	}
 	footer .logo {
 		display: block;
