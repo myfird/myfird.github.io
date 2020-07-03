@@ -879,6 +879,7 @@
 .banner{
 	background-repeat: no-repeat;
 	position: absolute;
+	background-size: contain;
 }
 	.banner1{
 		background-image: url(items/banglesPage/banner1.png);
