@@ -715,13 +715,17 @@ body{
 				position: relative;
 			}
 				.package span.text{
-					font-size: 28px;
-					color: #D2D2D2;
-					text-shadow: 0px -1px 4px #D2D2D2;
+				    font-size: 32px;
+				    color: #D2D2D2;
+				    text-shadow: 0px -1px 4px #D2D2D2;
 				    display: block;
-			   		z-index: 10;
-			    	position: relative;
-			    	margin:0 5%;
+				    width: 50%;
+				    z-index: 10;
+				    position: relative;
+				    margin: 0;
+				    padding: 50px 50px 0;
+				    line-height: 50px;
+				    height: 320px;
 				}
 				span.next{
 				    background: #0D0D0D;
@@ -740,13 +744,14 @@ body{
 				    position: relative;
 				}
 			.package div.img-container{
-				width:50%;
-				height: 350px;
-				position: relative;
-				z-index: 10;
-				background-image: url(photos/package.png);
-				background-repeat: no-repeat;
-				background-size:contain;
+			    width: 50%;
+			    height: 350px;
+			    float: right;
+			    position: relative;
+			    z-index: 10;
+			    background-image: url(photos/package.png);
+			    background-repeat: no-repeat;
+			    background-size: contain;
 			}
 	.delivery{
 		padding: 50px 0;
