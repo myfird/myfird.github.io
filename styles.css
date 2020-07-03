@@ -444,7 +444,7 @@ body{
 	margin:0 auto;
 }
 .background-blur{
-    height: 3150px;
+	height: 4250px;
     width: 1280px;
     z-index: -5;
     position: absolute;
@@ -823,7 +823,7 @@ body{
 		}
 footer {
 	background:black;
-	margin: 50px;
+	padding: 50px;
 }
 	footer .line{
 	    width: 840px;
