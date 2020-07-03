@@ -437,20 +437,20 @@
 		text-align: center;
 		padding:10px 0;
 		}
-body{
-	font-family: 'Cormorant Garamond', serif;
-	width: 1280px;
-	background:black;
-	margin:0 auto;
-}
-.background-blur{
-	height: 4167px;
-    width: 1280px;
-    z-index: -5;
-    position: absolute;
-    background: #8FBB94;
-    filter: blur(51px);
+	body{
+		font-family: 'Cormorant Garamond', serif;
+		width: 1280px;
+		background:black;
+		margin:0 auto;
 	}
+	.background-blur{
+		height: 4167px;
+	    width: 1280px;
+	    z-index: -5;
+	    position: absolute;
+	    background: #8FBB94;
+	    filter: blur(51px);
+		}
 
 	header{
 		height:180px;
@@ -826,10 +826,10 @@ body{
 		    background: rgb(44,44,44);
 		    border-radius: 50%;
 		}
-footer {
-	background:black;
-	padding: 50px;
-}
+	footer {
+		background:black;
+		padding: 50px;
+	}
 	footer span.header{
 		font-size:36px;
 	}
@@ -872,7 +872,7 @@ footer {
 
 
 /* bangles page */
-/*
+
 .banner-container{
 	position:relative;
 	height: 780px;
