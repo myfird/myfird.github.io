@@ -766,6 +766,8 @@ body{
 			background-image: url(photos/map.png);
 			background-repeat: no-repeat;
 			background-size: contain;
+			z-index: 10;
+    		position: relative;
 		}
 		.delivery div.city{
 			position:absolute;
