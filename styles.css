@@ -867,7 +867,7 @@
 	    z-index: 10;
     	position: relative;
 	}
-}
+
 
 
 /* bangles page */
@@ -897,32 +897,32 @@
 		position: relative;
 		}
 	.banner1{
-		background-image: url(/items/banglesPage/banner1.png);
+		background-image: url(../items/banglesPage/banner1.png);
 		height: 600px;
 		width: 1440px;
 	}
 	.banner2{
-		background-image: url(/items/banglesPage/banner2.png);
+		background-image: url(../items/banglesPage/banner2.png);
 	    height: 300px;
 	    top: 496px;
 	    width: 400px;
 	}
 	.banner3{
-		background-image: url(items/banglesPage/banner3.png);
+		background-image: url(../items/banglesPage/banner3.png);
 	    height: 300px;
 	    top: 512px;
 	    left: 375px;
 	    width: 400px;
 	}
 	.banner4{
-		background-image: url(items/banglesPage/banner4.png);
+		background-image: url(../items/banglesPage/banner4.png);
 	    top: 524px;
 	    left: 695px;
 	    height: 250px;
 	    width: 400px;
 	}
 	.banner5{
-		background-image: url(items/banglesPage/banner5.png);
+		background-image: url(../items/banglesPage/banner5.png);
 	    height: 300px;
 	    top: 552px;
 	    right: -24px;
@@ -1215,17 +1215,5 @@
 		    top: 65px;
 		}
 
-@media only screen and (max-width: 360px) {
-body{
-	font-family: 'Cormorant Garamond', serif;
-	width:360px;
-	background:black;
-	margin:0 auto;
 }
-.background-blur{
-	
-	}
-
-}
-
 
