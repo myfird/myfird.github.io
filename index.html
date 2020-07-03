@@ -140,7 +140,7 @@
 	var slideIndex = 1;
 	var slideCount = 3;
 	var triangles = document.getElementsByClassName("triangle");
-
+	
 	var desc = document.getElementsByClassName("description")[0].children;
 	for (i=0; i < desc.length; i++){
 		desc[i].style.display = "none";
@@ -157,10 +157,6 @@
 		ChangeBackgroungImageOfTab(slideIndex);
 	}
 
-	// Thumbnail image controls
-	function currentSlide(n) {
-	  showSlides(slideIndex = n);
-	}
 
 	function ChangeBackgroungImageOfTab(imagePrefix)
 	{
@@ -192,25 +188,6 @@
 		document.getElementsByClassName("slider")[0].className = "slider";
 	}
 
-	function showSlides(n) {
-	  var i;
-	  var triangles = document.getElementsByClassName("triangle");
-	  var slides = document.getElementsByClassName("desktop");
-	  var mainSlide = document.getElementsByClassName("main-item-back");
-	  var addSlide1 = document.getElementsByClassName("add-item-back-1");
-	  var addSlide2 = document.getElementsByClassName("add-item-back-2");
-
-	  if (n > slides.length) {slideIndex = 1}
-	  if (n < 1) {slideIndex = slides.length}
-	  for (i = 0; i < slides.length; i++) {
-	      slides[i].style.display = "none";
-	      slides2[i].style.display = "none";
-	      slides3[i].style.display = "none";
-	  }
-	  slides[slideIndex-1].style.display = "block";
-	  slides2[slideIndex-1].style.display = "block";
-	  slides3[slideIndex-1].style.display = "block";
-	}
 </script>
 </body>
 
