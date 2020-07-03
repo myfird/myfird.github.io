@@ -786,21 +786,12 @@ body{
 
 			.delivery .moscow span{
 			    position: relative;
-			    top: 230px;
-			    left: 178px;
+			    top: 298px;
+			    left: 225px;
 			}
 			.delivery .moscow .circle-big{
-			    top: 252px;
-			    left: 158px;
-			}
-			.delivery .spb span{
-			    position: relative;
-			    top: 158px;
-			    left: 190px;
-			}
-			.delivery .spb .circle-big{
-			    top: 180px;
-			    left: 170px;
+				top: 320px;
+			    left: 198px;
 			}
 			.delivery .uu span{
 			    position: relative;
