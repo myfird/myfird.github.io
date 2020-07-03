@@ -830,7 +830,7 @@ footer {
 	background:black;
 	padding: 50px;
 }
-	footer span{
+	footer span.header{
 		font-size:36px;
 	}
 	footer .line{
