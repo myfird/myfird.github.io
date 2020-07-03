@@ -831,7 +831,12 @@ body{
 footer {
 	background:black;
 }
-
+	footer a{
+		display:inline-block;
+		color: #8FBB94;
+		text-shadow: 1px 1px 4px #8FBB94;
+		font-size: 45px;
+	}
 }
 
 
