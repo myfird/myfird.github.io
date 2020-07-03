@@ -105,7 +105,6 @@
 	main{
 		}
 		.slider{
-			height: 350px;
 			width:100%;
 		}
 			.main-slide{
@@ -183,7 +182,7 @@
 		}
 
 		#background{
-	    	height: 1450px;
+	    	height: 1360px;
 		    width: 100%;
 		    z-index: 1;
 		    float: left;
