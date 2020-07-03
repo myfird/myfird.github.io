@@ -444,7 +444,7 @@ body{
 	margin:0 auto;
 }
 .background-blur{
-	height: 4190px;
+	height: 4167px;
     width: 1280px;
     z-index: -5;
     position: absolute;
@@ -636,7 +636,7 @@ body{
 		  to {opacity: 1;}
 		}
 		#background{
-    		height: 3190px;
+    		height: 3167px;
 		    width: 1280px;
 		    z-index: 1;
 		    opacity: 0.4;

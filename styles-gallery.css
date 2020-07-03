@@ -444,7 +444,7 @@ body{
 	margin:0 auto;
 }
 .background-blur{
-    height: 3150px;
+	height: 4190px;
     width: 1280px;
     z-index: -5;
     position: absolute;
@@ -636,10 +636,10 @@ body{
 		  to {opacity: 1;}
 		}
 		#background{
-		    height: 1450px;
+    		height: 3190px;
 		    width: 1280px;
 		    z-index: 1;
-		    opacity: 0.6;
+		    opacity: 0.4;
 		    position: absolute;
 		    background-image: url(/patterns/pattern2.png);
 		    background-repeat: repeat;
@@ -715,13 +715,17 @@ body{
 				position: relative;
 			}
 				.package span.text{
-					font-size: 28px;
-					color: #D2D2D2;
-					text-shadow: 0px -1px 4px #D2D2D2;
+				    font-size: 32px;
+				    color: #D2D2D2;
+				    text-shadow: 0px -1px 4px #D2D2D2;
 				    display: block;
-			   		z-index: 10;
-			    	position: relative;
-			    	margin:0 5%;
+				    width: 50%;
+				    z-index: 10;
+				    position: relative;
+				    margin: 0;
+				    padding: 50px 50px 0;
+				    line-height: 50px;
+				    height: 320px;
 				}
 				span.next{
 				    background: #0D0D0D;
@@ -740,16 +744,130 @@ body{
 				    position: relative;
 				}
 			.package div.img-container{
-				width:50%;
-				height: 350px;
-				position: relative;
-				z-index: 10;
-				background-image: url(photos/package.png);
-				background-repeat: no-repeat;
-				background-size:contain;
+			    width: 50%;
+			    height: 350px;
+			    float: right;
+			    position: relative;
+			    z-index: 10;
+			    background-image: url(photos/package.png);
+			    background-repeat: no-repeat;
+			    background-size: contain;
+			}
+	.delivery{
+		padding: 50px 0;
+		background:black;
+	}
+		.delivery div.header{
+			font-size: 45px;
+			color: #8FBB94;
+			text-shadow: 0px -1px 4px #8FBB94;
+			text-align: center;
+    		margin-top: 50px;
+		}
+		.delivery div.map{
+    		margin: 0 auto;
+			height: 700px;
+			width: 100%;
+			background-image: url(photos/map.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			z-index: 10;
+    		position: relative;
+		}
+		.delivery div.city{
+			position:absolute;
+			cursor: pointer;
+		}
+		.delivery div.city span{
+			font-size: 25px;
+			color: #FFFFFF;
+		}
+		.delivery div.city:hover .circle-small{
+			background:white;
+		}
+		.delivery div.city:hover span{
+    		text-shadow: 0px -1px 4px #D2D2D2;
+		}
+
+			.delivery .moscow span{
+			    position: relative;
+			    top: 298px;
+			    left: 225px;
+			}
+			.delivery .moscow .circle-big{
+				top: 320px;
+			    left: 198px;
+			}
+			.delivery .uu span{
+			    position: relative;
+			    top: 595px;
+			    left: 775px;
+			}
+			.delivery .uu .circle-big{
+			    top: 595px;
+			    left: 765px;
 			}
 
-
+		.delivery div.map .circle-big{
+		    width: 13px;
+		    height: 13px;
+		    display: block;
+		    position: relative;
+		    background: #8FBB94;
+		    border-radius: 50%;
+		}
+		.delivery div.map .circle-small{
+		    width: 9px;
+		    height: 9px;
+		    position: absolute;
+		    top: 2px;
+		    left: 2px;
+		    display: block;
+		    background: rgb(44,44,44);
+		    border-radius: 50%;
+		}
+footer {
+	background:black;
+	padding: 50px;
+}
+	footer span.header{
+		font-size:36px;
+	}
+	footer .line{
+	    width: 840px;
+	    height: 14px;
+	    background: radial-gradient(50% 50% at 50% 50%, rgba(143, 187, 148, 0.62) 0%, rgba(143, 187, 148, 0) 100%);
+	    position: relative;
+	    z-index: 10;
+	    margin: 0 auto;
+	}
+	footer .logo {
+		display: block;
+	    float: left;
+	    height: 150px;
+	    width: 100%;
+	    position: relative;
+	    z-index: 10;
+	    text-align: center;
+	    margin: 20px 0;
+		}
+		footer .logo img{
+		    width: 260px;
+		    height: 100px;
+		    margin: 15px;
+			}
+	footer a{
+	    text-shadow: 1px 1px 4px #8FBB94;
+	    font-size: 30px;
+	    display: inline-block;
+	    color: rgb(210,210,210);
+	    padding: 5px 10px;
+	    margin: 0 17px;
+	    font-size: 20px;
+	    height: 30px;
+	    z-index: 10;
+    	position: relative;
+	}
 }
 
 
