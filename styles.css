@@ -824,6 +824,11 @@ body{
 footer {
 	background:black;
 }
+	footer .line{
+		width: 340px;
+		height: 11px;
+		background: radial-gradient(50% 50% at 50% 50%, rgba(143, 187, 148, 0.62) 0%, rgba(143, 187, 148, 0) 100%);
+	}
 	footer .logo {
 	    display: block;
 	    float: left;
