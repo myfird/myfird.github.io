@@ -882,34 +882,29 @@
 	background-size: contain;
 }
 	.banner1{
-		background-image: url(items/banglesPage/banner1.png);
 		height: 600px;
 	    width: 100%;
     	background-size: contain;
 	}
 	.banner2{
-		background-image: url(items/banglesPage/banner2.png);
     	top: 425px;
     	left:0;
 		width: 339px;
 		height: 239px;
 	}
 	.banner3{
-		background-image: url(items/banglesPage/banner3.png);
 		width: 291px;
 		height: 224px;
 		left: 335px;
 		top: 440px;
 	}
 	.banner4{
-		background-image: url(items/banglesPage/banner4.png);
 		left: 617px;
 		top: 449px;
 		width: 323px;
 		height: 215px;
 	}
 	.banner5{
-		background-image: url(items/banglesPage/banner5.png);
 		width: 340px;
 		height: 190px;
 		left: 940px;
