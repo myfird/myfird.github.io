@@ -872,6 +872,8 @@
 
 /* bangles page */
 
+/* bangles page */
+
 .banner-container{
 	position:relative;
 	height: 833px;
@@ -1034,7 +1036,7 @@
 }
 
 
-.whiteBangles{
+.animals{
 	height: 1060px;
 	background-color: #0D0D0D;
 	position: relative;
@@ -1044,10 +1046,10 @@
 	background:#292727;
 	width:100%;
 }
-	.whiteBangles .triangle{
+	.animals .triangle{
 		top:475px;
 	}
-	.whiteBangles .delimiter{
+	.animals .delimiter{
 		width: 100%;
 		height: 10px;
 		position: absolute;
@@ -1056,58 +1058,58 @@
 		background-repeat: no-repeat;
 		background-size:cover;
 	}
-	.whiteBangles .item{
+	.animals .item{
 		height:500px;
 		width:100%;
 		float:left;
 	}
-		.whiteBangles .item .down{
+		.animals .item .down{
 			padding: 10px 0 0 0;
 		}
-			.whiteBangles .item .photo{
+			.animals .item .photo{
 			    width: 50%;
 			    height: 500px;
 			    overflow: hidden;
 			}
-			.whiteBangles .up .float{
+			.animals .up .float{
 				float:left;
 			}
-			.whiteBangles .down .float{
+			.animals .down .float{
 				float:right;
 			}
-			.whiteBangles img{
+			.animals img{
 				width: 100%;
 			    z-index: 0;
 			    position: relative;
 			}
-		.whiteBangles .item .description{
+		.animals .item .description{
 			width:50%;
 			height:500px;
 			z-index: 6;
     		position: relative;
 		}
-			.whiteBangles .item .description h3 {
+			.animals .item .description h3 {
 				font-size: 40px;
 				color: #8FBB94;
 				text-shadow: 0px -1px 4px #8FBB94;
 			}
-		.whiteBangles .description .name{
+		.animals .description .name{
 			height: 500px;
 		    width: 50%;
 		}
-		.whiteBangles .description .data{
+		.animals .description .data{
 			height: 500px;
 		    width: 50%;
 		    padding: 15px 0 0 0;
 		}
-		.whiteBangles .data .price{
+		.animals .data .price{
 			font-size:80px;
 		}
-		.whiteBangles .data .price span{
+		.animals .data .price span{
 			display: inline;
 			font-size: 25px;
 		}
-		.whiteBangles .descElem{
+		.animals .descElem{
 			font-size:25px;
 			display:block;
 			color: #D2D2D2;
@@ -1148,77 +1150,6 @@
     		left: 5px;
     		-webkit-transform: scaleX(-1);
   			transform: scaleX(-1);
-		}
-
-/* detailed item */
-
-.detItem{
-	position: relative;
-    height: 750px;
-	clear: both;
-	z-index: 1;
-}
-	.detItem .photo{
-	    width: 60%;
-	    height: 500px;
-	    float: left;
-	}
-		.detItem .photo img{
-		    width: 600px;
-		    height: 450px;
-		    border: solid 20px #252525;
-		    margin-left: 100px;
-		}
-	.detItem .desc{
-		height: 500px;
-	    width: 40%;
-	    float: right;
-	}
-	.detItem .desc span{
-		font-size:25px;
-		display:block;
-		color: #D2D2D2;
-		text-shadow: 0px -1px 4px #D2D2D2;
-	}
-	.detItem .desc h2{
-		font-size: 40px;
-		color: #8FBB94;
-		text-shadow: 0px -1px 4px #8FBB94;
-	}
-	.detItem .text{
-		margin: 20px 0;
-    	width: 60%;
-	}
-	.detItem .photos{
-		float: left;
-	    width: 764px;
-	    padding-left: 100px;
-	}
-		.detItem .photos img{
-		    width: 120px;
-		    height: 120px;
-		    border: solid 20px #252525;
-		    display: inline-block;
-		    float: left;
-		    margin: 0;
-		}
-	.detItem .buy{
-		float: left;
-    	width: 40%;
-    	position: relative;
-	}
-		.detItem .price{
-			font-size:80px;
-			color: #D2D2D2;
-			text-shadow: 0px -1px 4px #D2D2D2;
-		}
-		.detItem .price span{
-			display: inline;
-			font-size: 25px;
-		}
-		.detItem .buy .next{
-			position: absolute;
-		    top: 65px;
 		}
 
 }
